@@ -1,0 +1,2263 @@
+
+Setting environment for using XAMPP for Windows.
+Admin@DESKTOP-1KRTVHC c:\xampp
+# mysql -u root
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 15
+Server version: 10.4.24-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> create database project;
+Query OK, 1 row affected (0.021 sec)
+
+MariaDB [(none)]> use project;
+Database changed
+MariaDB [project]>  create table patient_detail(Patient_id int primary key,Name varchar(25),Gender varchar(10),Age int,Mobile_no varchar(10),Disease varchar(65));
+Query OK, 0 rows affected (0.215 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(101,'Sai','Male',22,'8956985624','food allergies');
+Query OK, 1 row affected (0.095 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(102,'Rohan','Male',45,'9945632145','surgery');
+Query OK, 1 row affected (0.021 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(103,'Aahan','Male',55,'9745698562','high blood pressure');
+Query OK, 1 row affected (0.048 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(104,'Bharti','Female',45,'7596451265','hemorrhoids');
+Query OK, 1 row affected (0.040 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(105,'Daksh','Male',35,'7596451265','accident');
+Query OK, 1 row affected (0.023 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(106,'Ishaan','Male',40,'8641239654','skin allergies');
+Query OK, 1 row affected (0.023 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(107,'Sampada','Female',65,'7459621456','thyroid problems');
+Query OK, 1 row affected (0.029 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(108,'Kamyukta','Female',55,'7596451265','infertility');
+Query OK, 1 row affected (0.036 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(109,'Ivaan','Male',35,'7586123654','pancreas');
+Query OK, 1 row affected (0.027 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(110,'Hridhaan','Male',30,'7978456985','gallbladder');
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(111,'Kanav','Male',26,'9547965235','hemophilia');
+Query OK, 1 row affected (0.027 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(112,'Naitik','Male',41,'7469857412','Lyme disease');
+Query OK, 1 row affected (0.027 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(113,'Kavya','Female',35,'8654795469','medical geneticists');
+Query OK, 1 row affected (0.026 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(114,'Pritani','Female',65,'7894562145','spinal tumors');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(115,'Ketki','Female',32,'8796541264','pregnancy');
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(116,'Jyoti','Female',49,'8879459626','cancer');
+Query OK, 1 row affected (0.022 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(117,'Lily','Female',64,'7984659654','glaucoma');
+Query OK, 1 row affected (0.023 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(118,'Pratik','Female',45,'8548654269','ears');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(119,'Rayaan','Male',65,'7845123654','back pain ');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(120,'Satvik','Male',35,'7459684512','depression');
+Query OK, 1 row affected (0.026 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(121,'Takshi','Female',45,'7596459651','asthma');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(122,'Bhavika','Female',46,'7945621456','fibromyalgia');
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(123,'Chetna','Female',36,'7541269856','hemorrhoids');
+Query OK, 1 row affected (0.022 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(124,'Vedika','Female',25,'8845964785','cancer');
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(125,'Gudi','Female',15,'8451236547','calcium ');
+Query OK, 1 row affected (0.022 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(126,'Devdut','Male',30,'7548659845','accident');
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(127,'Yuvan','Male',30,'7645123654','AIDS,');
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(128,'Sumit','Male',75,'7945632148','heart attack');
+Query OK, 1 row affected (0.023 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(129,'Arav','Male',25,'7785694563','calcium');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(130,'Daksh','Male',35,'7596451265','high blood pressure');
+Query OK, 1 row affected (0.051 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(131,'Abhiri','Female',45,'7894563214','pancreas');
+Query OK, 1 row affected (0.023 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(132,'Adwait','Male',29,'8123456987','food allergies');
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(133,'Ansh','Male',13,'9475612348','surgery');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(134,'Archit','Male',42,'9784563214','high blood pressure');
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(135,'Ishita','Female',35,'7894563214','hemorrhoids');
+Query OK, 1 row affected (0.023 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(136,'Arin','Male',22,'8457964123','high blood pressure');
+Query OK, 1 row affected (0.016 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(137,'Nimisha','Female',20,'7845961234','thyroid problems');
+Query OK, 1 row affected (0.033 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(138,'Pihu','Female',35,'7945841236','infertility');
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(139,'Samarth','Male',25,'7945612345','pancreas');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(140,'Devansh','Male',22,'7951462314','gallbladder');
+Query OK, 1 row affected (0.050 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(141,'Divyansh','Male',26,'7845961234','hemophilia');
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(142,'Naitik','Male',31,'7485961425','Lyme disease');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(143,'Jiya','Female',33,'8759612345','medical geneticists');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(144,'Manvi','Female',35,'7481967453','spinal tumors');
+Query OK, 1 row affected (0.042 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(145,'Mishika','Female',28,'7456319874','pregnancy');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(146,'Prachi','Female',29,'8745632145','cancer');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(147,'Yana','Female',24,'8265415865','glaucoma');
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(148,'Surbhi','Female',22,'8874569842','ears');
+Query OK, 1 row affected (0.083 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(149,'Kiaan','Male',45,'9945612345','back pain ');
+Query OK, 1 row affected (0.026 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(150,'Hridhaan','Male',22,'8745967485','depression');
+Query OK, 1 row affected (0.023 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(151,'Trisha','Female',25,'8874569412','asthma');
+Query OK, 1 row affected (0.022 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(152,'Bhakti','Female',36,'7945621456','fibromyalgia');
+Query OK, 1 row affected (0.026 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(153,'Samantha','Female',46,'8874316542','hemorrhoids');
+Query OK, 1 row affected (0.083 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(154,'Varsha','Female',55,'9874561234','cancer');
+Query OK, 1 row affected (0.048 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(155,'Aarohi','Female',55,'9745861265','calcium ');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(156,'Anup','Male',26,'9874568745','accident');
+Query OK, 1 row affected (0.023 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(157,'Sandesh','Male',18,'8974587457','thyroid problems,');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(158,'Akshay','Male',45,'8745632145','heart attack');
+Query OK, 1 row affected (0.027 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(159,'Rushi','Male',55,'9748569874','kidney disease');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(160,'Deepak','Male',25,'9874578965','high blood pressure');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(161,'Meetali','Female',39,'7894563214','pancreas');
+Query OK, 1 row affected (0.014 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(162,'Rajat','Male',24,'8974813462','skin allergies');
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(163,'Dakshita','Female',37,'8759612345','medical geneticists');
+Query OK, 1 row affected (0.041 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(164,'Pranali’,'Female',45,'7489612345','spinal tumors');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(165,'Pooja','Female',35,'8998453216','pregnancy');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(166,'Malika','Female',39,'9784596321','cancer');
+Query OK, 1 row affected (0.022 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(167,'Janvi','Female',48,'8796542657','glaucoma');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(168,'Vanshika','Female',25,'4867459345','ears');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(169,'Jhone','Male',35,'9874859614','back pain');
+Query OK, 1 row affected (0.030 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(170,'Farhat','Male',37,'8784596145','depression');
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(171,'Hindavi','Female',46,'8874569412','asthma');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(172,'Shraddha','Female',26,'7896412563','fibromyalgia');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(173,'Manali','Female',20,'78459623134','hemorrhoids');
+Query OK, 1 row affected, 1 warning (0.030 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(174,'Reheman','Male',15,'9321548694','cancer');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(175,'Gautami','Female',65,'7896548651','gallbladder ');
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(176,'Jasprit','Male',37,'7548659845','AIDS');
+Query OK, 1 row affected (0.050 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(177,'Suresh’,'Male',54,'8794578695','thyroid problems,');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(178,'Swarup','Male',45,'8798457869','heart attack');
+Query OK, 1 row affected (0.022 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(179,'Amit','Male',75,'9878789878','kidney disease');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(180,'Mayur','Male',65,'7896547859',’high blood pressure');
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(181,'Udati','Female',56,'8896547859','pancreas');
+Query OK, 1 row affected (0.029 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(182,'Hooda','Male',49,'9614563245','food allergies');
+Query OK, 1 row affected (0.041 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(183,'Kimir','Male',29,'9648569742','surgery');
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(184,'Emran','Male',32,'9124563254','high blood pressure');
+Query OK, 1 row affected (0.023 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into patient_detail values(185,'Ketki','Female',65,'9247856953','eye’);
+Query OK, 1 row affected (0.022 sec)
+
+MariaDB [project]>
+MariaDB [project]> select * from patient_detail;
++------------+----------+--------+------+------------+---------------------+
+| Patient_id | Name     | Gender | Age  | Mobile_no  | Disease             |
++------------+----------+--------+------+------------+---------------------+
+|        101 | Sai      | Male   |   22 | 8956985624 | food allergies      |
+|        102 | Rohan    | Male   |   45 | 9945632145 | surgery             |
+|        103 | Aahan    | Male   |   55 | 9745698562 | high blood pressure |
+|        104 | Bharti   | Female |   45 | 7596451265 | hemorrhoids         |
+|        105 | Daksh    | Male   |   35 | 7596451265 | accident            |
+|        106 | Ishaan   | Male   |   40 | 8641239654 | skin allergies      |
+|        107 | Sampada  | Female |   65 | 7459621456 | thyroid problems    |
+|        108 | Kamyukta | Female |   55 | 7596451265 | infertility         |
+|        109 | Ivaan    | Male   |   35 | 7586123654 | pancreas            |
+|        110 | Hridhaan | Male   |   30 | 7978456985 | gallbladder         |
+|        111 | Kanav    | Male   |   26 | 9547965235 | hemophilia          |
+|        112 | Naitik   | Male   |   41 | 7469857412 | Lyme disease        |
+|        113 | Kavya    | Female |   35 | 8654795469 | medical geneticists |
+|        114 | Pritani  | Female |   65 | 7894562145 | spinal tumors       |
+|        115 | Ketki    | Female |   32 | 8796541264 | pregnancy           |
+|        116 | Jyoti    | Female |   49 | 8879459626 | cancer              |
+|        117 | Lily     | Female |   64 | 7984659654 | glaucoma            |
+|        118 | Pratik   | Female |   45 | 8548654269 | ears                |
+|        119 | Rayaan   | Male   |   65 | 7845123654 | back pain           |
+|        120 | Satvik   | Male   |   35 | 7459684512 | depression          |
+|        121 | Takshi   | Female |   45 | 7596459651 | asthma              |
+|        122 | Bhavika  | Female |   46 | 7945621456 | fibromyalgia        |
+|        123 | Chetna   | Female |   36 | 7541269856 | hemorrhoids         |
+|        124 | Vedika   | Female |   25 | 8845964785 | cancer              |
+|        125 | Gudi     | Female |   15 | 8451236547 | calcium             |
+|        126 | Devdut   | Male   |   30 | 7548659845 | accident            |
+|        127 | Yuvan    | Male   |   30 | 7645123654 | AIDS,               |
+|        128 | Sumit    | Male   |   75 | 7945632148 | heart attack        |
+|        129 | Arav     | Male   |   25 | 7785694563 | calcium             |
+|        130 | Daksh    | Male   |   35 | 7596451265 | high blood pressure |
+|        131 | Abhiri   | Female |   45 | 7894563214 | pancreas            |
+|        132 | Adwait   | Male   |   29 | 8123456987 | food allergies      |
+|        133 | Ansh     | Male   |   13 | 9475612348 | surgery             |
+|        134 | Archit   | Male   |   42 | 9784563214 | high blood pressure |
+|        135 | Ishita   | Female |   35 | 7894563214 | hemorrhoids         |
+|        136 | Arin     | Male   |   22 | 8457964123 | high blood pressure |
+|        137 | Nimisha  | Female |   20 | 7845961234 | thyroid problems    |
+|        138 | Pihu     | Female |   35 | 7945841236 | infertility         |
+|        139 | Samarth  | Male   |   25 | 7945612345 | pancreas            |
+|        140 | Devansh  | Male   |   22 | 7951462314 | gallbladder         |
+|        141 | Divyansh | Male   |   26 | 7845961234 | hemophilia          |
+|        142 | Naitik   | Male   |   31 | 7485961425 | Lyme disease        |
+|        143 | Jiya     | Female |   33 | 8759612345 | medical geneticists |
+|        144 | Manvi    | Female |   35 | 7481967453 | spinal tumors       |
+|        145 | Mishika  | Female |   28 | 7456319874 | pregnancy           |
+|        146 | Prachi   | Female |   29 | 8745632145 | cancer              |
+|        147 | Yana     | Female |   24 | 8265415865 | glaucoma            |
+|        148 | Surbhi   | Female |   22 | 8874569842 | ears                |
+|        149 | Kiaan    | Male   |   45 | 9945612345 | back pain           |
+|        150 | Hridhaan | Male   |   22 | 8745967485 | depression          |
+|        151 | Trisha   | Female |   25 | 8874569412 | asthma              |
+|        152 | Bhakti   | Female |   36 | 7945621456 | fibromyalgia        |
+|        153 | Samantha | Female |   46 | 8874316542 | hemorrhoids         |
+|        154 | Varsha   | Female |   55 | 9874561234 | cancer              |
+|        155 | Aarohi   | Female |   55 | 9745861265 | calcium             |
+|        156 | Anup     | Male   |   26 | 9874568745 | accident            |
+|        157 | Sandesh  | Male   |   18 | 8974587457 | thyroid problems,   |
+|        158 | Akshay   | Male   |   45 | 8745632145 | heart attack        |
+|        159 | Rushi    | Male   |   55 | 9748569874 | kidney disease      |
+|        160 | Deepak   | Male   |   25 | 9874578965 | high blood pressure |
+|        161 | Meetali  | Female |   39 | 7894563214 | pancreas            |
+|        162 | Rajat    | Male   |   24 | 8974813462 | skin allergies      |
+|        163 | Dakshita | Female |   37 | 8759612345 | medical geneticists |
+|        164 | Pranali  | Female |   45 | 7489612345 | spinal tumors       |
+|        165 | Pooja    | Female |   35 | 8998453216 | pregnancy           |
+|        166 | Malika   | Female |   39 | 9784596321 | cancer              |
+|        167 | Janvi    | Female |   48 | 8796542657 | glaucoma            |
+|        168 | Vanshika | Female |   25 | 4867459345 | ears                |
+|        169 | Jhone    | Male   |   35 | 9874859614 | back pain           |
+|        170 | Farhat   | Male   |   37 | 8784596145 | depression          |
+|        171 | Hindavi  | Female |   46 | 8874569412 | asthma              |
+|        172 | Shraddha | Female |   26 | 7896412563 | fibromyalgia        |
+|        173 | Manali   | Female |   20 | 7845962313 | hemorrhoids         |
+|        174 | Reheman  | Male   |   15 | 9321548694 | cancer              |
+|        175 | Gautami  | Female |   65 | 7896548651 | gallbladder         |
+|        176 | Jasprit  | Male   |   37 | 7548659845 | AIDS                |
+|        177 | Suresh   | Male   |   54 | 8794578695 | thyroid problems,   |
+|        178 | Swarup   | Male   |   45 | 8798457869 | heart attack        |
+|        179 | Amit     | Male   |   75 | 9878789878 | kidney disease      |
+|        180 | Mayur    | Male   |   65 | 7896547859 | high blood pressure |
+|        181 | Udati    | Female |   56 | 8896547859 | pancreas            |
+|        182 | Hooda    | Male   |   49 | 9614563245 | food allergies      |
+|        183 | Kimir    | Male   |   29 | 9648569742 | surgery             |
+|        184 | Emran    | Male   |   32 | 9124563254 | high blood pressure |
+|        185 | Ketki    | Female |   65 | 9247856953 | eye                 |
++------------+----------+--------+------+------------+---------------------+
+85 rows in set (0.001 sec)
+
+MariaDB [project]> create table hospital_detail(Patient_id int primary key,Doctor_name varchar(65),Department varchar(65),Appointment datetime,doctor_charges int);
+Query OK, 0 rows affected (0.125 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(101,'Dr. Kalpana divekar',' Immunologists','2022-09-12 10:00;00',3000);
+Query OK, 1 row affected (0.033 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(102,'Dr. Prasad bhukebag',' Anesthesiologists','2022-09-12  12:00;00',15000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(103,'Dr. Sandeep varma',' Cardiologists','2022-09-12 11:00;00',2000);
+Query OK, 1 row affected (0.046 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(104,'Dr. Sagar raiya',' Colon and Rectal Surgeons','2022-09-12  10:00;00',5000);
+Query OK, 1 row affected (0.054 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(105,'Dr. Rajesh Agaewal',' Otolaryngologists','2022-09-12 12:30;00',4000);
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(106,'Dr. Harsh shah',' Dermatologists','2022-09-12 11:00;00',3000);
+Query OK, 1 row affected (0.044 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(107,'Dr. Virendra Patil',' Endocrinologists ','2022-09-12 10:30;00',3000);
+Query OK, 1 row affected (0.019 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(108,'Dr. Virendra Patil',' Endocrinologists','2022-09-12 11:00;00',3000);
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(109,'Dr. Mandar Arekar',' Gastroenterologists ','2022-09-12 14:00;00',3500);
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(110,'Dr. Mandar Arekar',' Gastroenterologists ','2022-09-12 14:20;00',3000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(111,'Dr. Hemant Jain',' Hematologists','2022-09-12 09:30;00',6000);
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(112,'Dr. Jigna thakkar',' Infectious Disease Specialists','2022-09-12 10:00;00',4000);
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(113,'Dr. Mrunal chaudhari',' Dentistery & Dental Speciality','2022-09-12 10:00;00',4500);
+Query OK, 1 row affected (0.027 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(114,'Dr. Nilesh shetty',' Neurologists ','2022-09-12 10:30;00',8000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(115,'Dr. Ashok naydu',' Gynecologists ','2022-09-12 13:00;00',5000);
+Query OK, 1 row affected (0.021 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(116,'Dr. Jay anam',' Oncologists ','2022-09-12 11:00;00',8000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(117,'Dr. Jinesh patani',' Ophthalmologists ','2022-09-12 10:00;00',2500);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(118,'Dr. Rajesh Agaewal',' Otolaryngologists ','2022-09-12 13:00;00',4000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(119,'Dr. Pragna gada',' Physiatrists','2022-09-12 09:30;00',3000);
+Query OK, 1 row affected (0.027 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(120,'Dr. Amee shah',' Psychiatrists','2022-09-12 15:00;00',6000);
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(121,'Dr. Gulabi sheth',' Pulmonologists','2022-09-12 11:00;00',4500);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(122,'Dr. Anjali swami',' Rheumatologists','2022-09-12 13:00;00',2000);
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(123,'Dr. Sagar raiya',' Colon and Rectal Surgeons','2022-09-12 10:30;00',5000);
+Query OK, 1 row affected (0.027 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(124,'Dr. Jay anam',' Oncologists ','2022-09-12 11:30;00',7500);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(125,'Dr. Virendra Patil',' Endocrinologists ','2022-09-12 11:30;00',3000);
+Query OK, 1 row affected (0.023 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(126,'Dr. Rajesh Agaewal',' Otolaryngologists','2022-09-12 13:00;00',4000);
+Query OK, 1 row affected (0.072 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(127,'Dr. Jigna thakkar',' Infectious Disease Specialists','2022-09-12 11:00;00',6500);
+Query OK, 1 row affected (0.082 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(128,'Dr. Sandeep varma',' Cardiologists','2022-09-12 11:30;00',6000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(129,'Dr. Virendra Patil',' Endocrinologists ','2022-09-12 12:00;00',3000);
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(130,'Dr. Nikhil kedia',' Nephrologists','2022-09-12 12:00;00',5000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(131,'Dr. Mandar Arekar',' Gastroenterologists ','2022-09-12 14:40;00',3000);
+Query OK, 1 row affected (0.029 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(132,'Dr. Kalpana divekar',' Immunologists','2022-09-13 09:30;00',3000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(133,'Dr. Prasad bhuke',' Anesthesiologists','2022-09-13  12:00;00',12000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(134,'Dr. Nikhil kedia',' Nephrologists','2022-09-13 10:00;00',4000);
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(135,'Dr. Sagar raiya',' Colon and Rectal Surgeons','2022-09-13  10:00;00',5000);
+Query OK, 1 row affected (0.030 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(136,'Dr. Nikhil kedia',' Nephrologists','2022-09-13 11:00;00',4000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(137,'Dr. Virendra Patil',' Endocrinologists ','2022-09-13 10:00;00',3000);
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(138,'Dr. Virendra Patil',' Endocrinologists ','2022-09-13 10:30;00',3000);
+Query OK, 1 row affected (0.039 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(139,'Dr. Mandar Arekar',' Gastroenterologists ','2022-09-13 13:00;00',3000);
+Query OK, 1 row affected (0.034 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(140,'Dr. Mandar Arekar',' Gastroenterologists ','2022-09-13 13:30;00',3000);
+Query OK, 1 row affected (0.015 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(141,'Dr. Hemant Jain',' Hematologists','2022-09-13 09:30;00',6000);
+Query OK, 1 row affected (0.023 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(142,'Dr. Jigna thakkar',' Infectious Disease Specialists','2022-09-13 10:00;00',4000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(143,'Dr. Mrunal chaudhari',' Dentistery & Dental Speciality','2022-09-13 11:00;00',4500);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(144,'Dr. Nilesh shetty',' Neurologists ','2022-09-13 10:30;00',6000);
+Query OK, 1 row affected (0.021 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(145,'Dr. Ashok naydu',' Gynecologists ','2022-09-13 12:00;00',5000);
+Query OK, 1 row affected (0.027 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(146,'Dr. Jay anam',' Oncologists ','2022-09-13 11:00;00',8000);
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(147,'Dr. Jinesh patani',' Ophthalmologists ','2022-09-13 10:00;00',2500);
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(148,'Dr. Rajesh Agaewal',' Otolaryngologists ','2022-09-13 12:00;00',4000);
+Query OK, 1 row affected (0.030 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(149,'Dr. Pragna gada',' Physiatrists','2022-09-13 10:30;00',3000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(150,'Dr. Amee shah',' Psychiatrists','2022-09-13 11:00;00',6000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(151,'Dr. Gulabi sheth',' Pulmonologists','2022-09-13 11:00;00',4500);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(152,'Dr. Anjali swami',' Rheumatologists','2022-09-13 12:00;00',2000);
+Query OK, 1 row affected (0.042 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(153,'Dr. Sagar raiya',' Colon and Rectal Surgeons','2022-09-13 10:50;00',5000);
+Query OK, 1 row affected (0.098 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(154,'Dr. Jay anam',' Oncologists ','2022-09-13 11:30;00',7500);
+Query OK, 1 row affected (0.083 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(155,'Dr. Virendra Patil',' Endocrinologists ','2022-09-13 11:00;00',3000);
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(156,'Dr. Mrunal chaudhari',' Dentistery & Dental Speciality','2022-09-13 11:30;00',4500);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(157,'Dr. Virendra Patil',' Endocrinologists ','2022-09-13 11:30;00',3000);
+Query OK, 1 row affected (0.022 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(158,'Dr. Sandeep varma',' Cardiologists','2022-09-13 11:00;00',6000);
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(159,'Dr. Sandeep varma',' Cardiologists','2022-09-13 11:30;00',6000);
+Query OK, 1 row affected (0.022 sec)
+
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(160,'Dr. Nikhil kedia',' Nephrologists','2022-09-13 11:20;00',4000);
+Query OK, 1 row affected (0.023 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(161,'Dr. Mandar Arekar',' Gastroenterologists ','2022-09-13 14:00;00',3000);
+Query OK, 1 row affected (0.026 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(162,'Dr. Harsh shah',' Dermatologists','2022-09-13 11:00;00',3000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(163,'Dr. Mrunal chaudhari',' Dentistery & Dental Speciality','2022-09-13 12:00;00',4500);
+Query OK, 1 row affected (0.030 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(164,'Dr. Nilesh shetty',' Neurologists ','2022-09-13 11:00;00',8000);
+Query OK, 1 row affected (0.015 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(165,'Dr. Ashok naydu',' Gynecologists ','2022-09-13 12:30;00',5000);
+Query OK, 1 row affected (0.022 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(166,'Dr. Jay anam',' Oncologists ','2022-09-14 11:00;00',8000);
+Query OK, 1 row affected (0.023 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(167,'Dr. Jinesh patani',' Ophthalmologists ','2022-09-14 10:00;00',2500);
+Query OK, 1 row affected (0.026 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(168,'Dr. Rajesh Agaewal',' Otolaryngologists ','2022-09-14 12:00;00',4000);
+Query OK, 1 row affected (0.042 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(169,'Dr. Pragna gada',' Physiatrists','2022-09-14 11:30;00',3000);
+Query OK, 1 row affected (0.030 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(170,'Dr. Amee shah',' Psychiatrists','2022-09-14 11:00;00',6000);
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(171,'Dr. Gulabi sheth',' Pulmonologists','2022-09-14 12:00;00',4500);
+Query OK, 1 row affected (0.025 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(172,'Dr. Anjali swami',' Rheumatologists','2022-09-14 13:00;00',2000);
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(173,'Dr. Sagar raiya',' Colon and Rectal Surgeons','2022-09-14 10:30;00',5000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(174,'Dr. Jay anam',' Oncologists ','2022-09-14 11:30;00',7500);
+Query OK, 1 row affected (0.022 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(175,'Dr. Mandar Arekar',' Gastroenterologists ','2022-09-14 10:00;00',3000);
+Query OK, 1 row affected (0.026 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(176,'Dr. Jigna thakkar',' Infectious Disease Specialists','2022-09-14 11:00;00',6500);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(177,'Dr. Virendra Patil',' Endocrinologists ','2022-09-14 11:00;00',3000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(178,'Dr. Sandeep varma',' Cardiologists','2022-09-14 11:00;00',6000);
+Query OK, 1 row affected (0.024 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(179,'Dr. Sandeep varma',' Cardiologists','2022-09-14 11:30;00',6000);
+Query OK, 1 row affected (0.203 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(180,'Dr. Nikhil kedia',' Nephrologists','2022-09-14 11:30;00',4000);
+Query OK, 1 row affected (0.054 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(181,'Dr. Mandar Arekar',' Gastroenterologists ','2022-09-14 12:00;00',3000);
+Query OK, 1 row affected (0.069 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(182,'Dr. Kalpana divekar',' Immunologists','2022-09-14 10:00;00',3000);
+Query OK, 1 row affected (0.046 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(183,'Dr. Prasad bhuke',' Anesthesiologists','2022-09-14  12:00;00',15000);
+Query OK, 1 row affected (0.033 sec)
+
+MariaDB [project]>
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(184,'Dr. Sandeep varma',' Cardiologists','2022-09-14 12:00;00',2000);
+Query OK, 1 row affected (0.023 sec)
+
+MariaDB [project]>
+MariaDB [project]>  insert into hospital_detail values(185,'Dr. Jinesh patani',' Ophthalmologists ','2022-09-14 10:30;00',2500);
+Query OK, 1 row affected (0.028 sec)
+
+MariaDB [project]> select * from patient_detail;
++------------+----------+--------+------+------------+---------------------+
+| Patient_id | Name     | Gender | Age  | Mobile_no  | Disease             |
++------------+----------+--------+------+------------+---------------------+
+|        101 | Sai      | Male   |   22 | 8956985624 | food allergies      |
+|        102 | Rohan    | Male   |   45 | 9945632145 | surgery             |
+|        103 | Aahan    | Male   |   55 | 9745698562 | high blood pressure |
+|        104 | Bharti   | Female |   45 | 7596451265 | hemorrhoids         |
+|        105 | Daksh    | Male   |   35 | 7596451265 | accident            |
+|        106 | Ishaan   | Male   |   40 | 8641239654 | skin allergies      |
+|        107 | Sampada  | Female |   65 | 7459621456 | thyroid problems    |
+|        108 | Kamyukta | Female |   55 | 7596451265 | infertility         |
+|        109 | Ivaan    | Male   |   35 | 7586123654 | pancreas            |
+|        110 | Hridhaan | Male   |   30 | 7978456985 | gallbladder         |
+|        111 | Kanav    | Male   |   26 | 9547965235 | hemophilia          |
+|        112 | Naitik   | Male   |   41 | 7469857412 | Lyme disease        |
+|        113 | Kavya    | Female |   35 | 8654795469 | medical geneticists |
+|        114 | Pritani  | Female |   65 | 7894562145 | spinal tumors       |
+|        115 | Ketki    | Female |   32 | 8796541264 | pregnancy           |
+|        116 | Jyoti    | Female |   49 | 8879459626 | cancer              |
+|        117 | Lily     | Female |   64 | 7984659654 | glaucoma            |
+|        118 | Pratik   | Female |   45 | 8548654269 | ears                |
+|        119 | Rayaan   | Male   |   65 | 7845123654 | back pain           |
+|        120 | Satvik   | Male   |   35 | 7459684512 | depression          |
+|        121 | Takshi   | Female |   45 | 7596459651 | asthma              |
+|        122 | Bhavika  | Female |   46 | 7945621456 | fibromyalgia        |
+|        123 | Chetna   | Female |   36 | 7541269856 | hemorrhoids         |
+|        124 | Vedika   | Female |   25 | 8845964785 | cancer              |
+|        125 | Gudi     | Female |   15 | 8451236547 | calcium             |
+|        126 | Devdut   | Male   |   30 | 7548659845 | accident            |
+|        127 | Yuvan    | Male   |   30 | 7645123654 | AIDS,               |
+|        128 | Sumit    | Male   |   75 | 7945632148 | heart attack        |
+|        129 | Arav     | Male   |   25 | 7785694563 | calcium             |
+|        130 | Daksh    | Male   |   35 | 7596451265 | high blood pressure |
+|        131 | Abhiri   | Female |   45 | 7894563214 | pancreas            |
+|        132 | Adwait   | Male   |   29 | 8123456987 | food allergies      |
+|        133 | Ansh     | Male   |   13 | 9475612348 | surgery             |
+|        134 | Archit   | Male   |   42 | 9784563214 | high blood pressure |
+|        135 | Ishita   | Female |   35 | 7894563214 | hemorrhoids         |
+|        136 | Arin     | Male   |   22 | 8457964123 | high blood pressure |
+|        137 | Nimisha  | Female |   20 | 7845961234 | thyroid problems    |
+|        138 | Pihu     | Female |   35 | 7945841236 | infertility         |
+|        139 | Samarth  | Male   |   25 | 7945612345 | pancreas            |
+|        140 | Devansh  | Male   |   22 | 7951462314 | gallbladder         |
+|        141 | Divyansh | Male   |   26 | 7845961234 | hemophilia          |
+|        142 | Naitik   | Male   |   31 | 7485961425 | Lyme disease        |
+|        143 | Jiya     | Female |   33 | 8759612345 | medical geneticists |
+|        144 | Manvi    | Female |   35 | 7481967453 | spinal tumors       |
+|        145 | Mishika  | Female |   28 | 7456319874 | pregnancy           |
+|        146 | Prachi   | Female |   29 | 8745632145 | cancer              |
+|        147 | Yana     | Female |   24 | 8265415865 | glaucoma            |
+|        148 | Surbhi   | Female |   22 | 8874569842 | ears                |
+|        149 | Kiaan    | Male   |   45 | 9945612345 | back pain           |
+|        150 | Hridhaan | Male   |   22 | 8745967485 | depression          |
+|        151 | Trisha   | Female |   25 | 8874569412 | asthma              |
+|        152 | Bhakti   | Female |   36 | 7945621456 | fibromyalgia        |
+|        153 | Samantha | Female |   46 | 8874316542 | hemorrhoids         |
+|        154 | Varsha   | Female |   55 | 9874561234 | cancer              |
+|        155 | Aarohi   | Female |   55 | 9745861265 | calcium             |
+|        156 | Anup     | Male   |   26 | 9874568745 | accident            |
+|        157 | Sandesh  | Male   |   18 | 8974587457 | thyroid problems,   |
+|        158 | Akshay   | Male   |   45 | 8745632145 | heart attack        |
+|        159 | Rushi    | Male   |   55 | 9748569874 | kidney disease      |
+|        160 | Deepak   | Male   |   25 | 9874578965 | high blood pressure |
+|        161 | Meetali  | Female |   39 | 7894563214 | pancreas            |
+|        162 | Rajat    | Male   |   24 | 8974813462 | skin allergies      |
+|        163 | Dakshita | Female |   37 | 8759612345 | medical geneticists |
+|        164 | Pranali  | Female |   45 | 7489612345 | spinal tumors       |
+|        165 | Pooja    | Female |   35 | 8998453216 | pregnancy           |
+|        166 | Malika   | Female |   39 | 9784596321 | cancer              |
+|        167 | Janvi    | Female |   48 | 8796542657 | glaucoma            |
+|        168 | Vanshika | Female |   25 | 4867459345 | ears                |
+|        169 | Jhone    | Male   |   35 | 9874859614 | back pain           |
+|        170 | Farhat   | Male   |   37 | 8784596145 | depression          |
+|        171 | Hindavi  | Female |   46 | 8874569412 | asthma              |
+|        172 | Shraddha | Female |   26 | 7896412563 | fibromyalgia        |
+|        173 | Manali   | Female |   20 | 7845962313 | hemorrhoids         |
+|        174 | Reheman  | Male   |   15 | 9321548694 | cancer              |
+|        175 | Gautami  | Female |   65 | 7896548651 | gallbladder         |
+|        176 | Jasprit  | Male   |   37 | 7548659845 | AIDS                |
+|        177 | Suresh   | Male   |   54 | 8794578695 | thyroid problems,   |
+|        178 | Swarup   | Male   |   45 | 8798457869 | heart attack        |
+|        179 | Amit     | Male   |   75 | 9878789878 | kidney disease      |
+|        180 | Mayur    | Male   |   65 | 7896547859 | high blood pressure |
+|        181 | Udati    | Female |   56 | 8896547859 | pancreas            |
+|        182 | Hooda    | Male   |   49 | 9614563245 | food allergies      |
+|        183 | Kimir    | Male   |   29 | 9648569742 | surgery             |
+|        184 | Emran    | Male   |   32 | 9124563254 | high blood pressure |
+|        185 | Ketki    | Female |   65 | 9247856953 | eye                 |
++------------+----------+--------+------+------------+---------------------+
+85 rows in set (0.019 sec)
+
+MariaDB [project]> select * from hospital_detail;
++------------+----------------------+---------------------------------+---------------------+----------------+
+| Patient_id | Doctor_name          | Department                      | Appointment         | doctor_charges |
++------------+----------------------+---------------------------------+---------------------+----------------+
+|        101 | Dr. Kalpana divekar  |  Immunologists                  | 2022-09-12 10:00:00 |           3000 |
+|        102 | Dr. Prasad bhukebag  |  Anesthesiologists              | 2022-09-12 12:00:00 |          15000 |
+|        103 | Dr. Sandeep varma    |  Cardiologists                  | 2022-09-12 11:00:00 |           2000 |
+|        104 | Dr. Sagar raiya      |  Colon and Rectal Surgeons      | 2022-09-12 10:00:00 |           5000 |
+|        105 | Dr. Rajesh Agaewal   |  Otolaryngologists              | 2022-09-12 12:30:00 |           4000 |
+|        106 | Dr. Harsh shah       |  Dermatologists                 | 2022-09-12 11:00:00 |           3000 |
+|        107 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-12 10:30:00 |           3000 |
+|        108 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-12 11:00:00 |           3000 |
+|        109 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-12 14:00:00 |           3500 |
+|        110 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-12 14:20:00 |           3000 |
+|        111 | Dr. Hemant Jain      |  Hematologists                  | 2022-09-12 09:30:00 |           6000 |
+|        112 | Dr. Jigna thakkar    |  Infectious Disease Specialists | 2022-09-12 10:00:00 |           4000 |
+|        113 | Dr. Mrunal chaudhari |  Dentistery & Dental Speciality | 2022-09-12 10:00:00 |           4500 |
+|        114 | Dr. Nilesh shetty    |  Neurologists                   | 2022-09-12 10:30:00 |           8000 |
+|        115 | Dr. Ashok naydu      |  Gynecologists                  | 2022-09-12 13:00:00 |           5000 |
+|        116 | Dr. Jay anam         |  Oncologists                    | 2022-09-12 11:00:00 |           8000 |
+|        117 | Dr. Jinesh patani    |  Ophthalmologists               | 2022-09-12 10:00:00 |           2500 |
+|        118 | Dr. Rajesh Agaewal   |  Otolaryngologists              | 2022-09-12 13:00:00 |           4000 |
+|        119 | Dr. Pragna gada      |  Physiatrists                   | 2022-09-12 09:30:00 |           3000 |
+|        120 | Dr. Amee shah        |  Psychiatrists                  | 2022-09-12 15:00:00 |           6000 |
+|        121 | Dr. Gulabi sheth     |  Pulmonologists                 | 2022-09-12 11:00:00 |           4500 |
+|        122 | Dr. Anjali swami     |  Rheumatologists                | 2022-09-12 13:00:00 |           2000 |
+|        123 | Dr. Sagar raiya      |  Colon and Rectal Surgeons      | 2022-09-12 10:30:00 |           5000 |
+|        124 | Dr. Jay anam         |  Oncologists                    | 2022-09-12 11:30:00 |           7500 |
+|        125 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-12 11:30:00 |           3000 |
+|        126 | Dr. Rajesh Agaewal   |  Otolaryngologists              | 2022-09-12 13:00:00 |           4000 |
+|        127 | Dr. Jigna thakkar    |  Infectious Disease Specialists | 2022-09-12 11:00:00 |           6500 |
+|        128 | Dr. Sandeep varma    |  Cardiologists                  | 2022-09-12 11:30:00 |           6000 |
+|        129 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-12 12:00:00 |           3000 |
+|        130 | Dr. Nikhil kedia     |  Nephrologists                  | 2022-09-12 12:00:00 |           5000 |
+|        131 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-12 14:40:00 |           3000 |
+|        132 | Dr. Kalpana divekar  |  Immunologists                  | 2022-09-13 09:30:00 |           3000 |
+|        133 | Dr. Prasad bhuke     |  Anesthesiologists              | 2022-09-13 12:00:00 |          12000 |
+|        134 | Dr. Nikhil kedia     |  Nephrologists                  | 2022-09-13 10:00:00 |           4000 |
+|        135 | Dr. Sagar raiya      |  Colon and Rectal Surgeons      | 2022-09-13 10:00:00 |           5000 |
+|        136 | Dr. Nikhil kedia     |  Nephrologists                  | 2022-09-13 11:00:00 |           4000 |
+|        137 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-13 10:00:00 |           3000 |
+|        138 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-13 10:30:00 |           3000 |
+|        139 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-13 13:00:00 |           3000 |
+|        140 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-13 13:30:00 |           3000 |
+|        141 | Dr. Hemant Jain      |  Hematologists                  | 2022-09-13 09:30:00 |           6000 |
+|        142 | Dr. Jigna thakkar    |  Infectious Disease Specialists | 2022-09-13 10:00:00 |           4000 |
+|        143 | Dr. Mrunal chaudhari |  Dentistery & Dental Speciality | 2022-09-13 11:00:00 |           4500 |
+|        144 | Dr. Nilesh shetty    |  Neurologists                   | 2022-09-13 10:30:00 |           6000 |
+|        145 | Dr. Ashok naydu      |  Gynecologists                  | 2022-09-13 12:00:00 |           5000 |
+|        146 | Dr. Jay anam         |  Oncologists                    | 2022-09-13 11:00:00 |           8000 |
+|        147 | Dr. Jinesh patani    |  Ophthalmologists               | 2022-09-13 10:00:00 |           2500 |
+|        148 | Dr. Rajesh Agaewal   |  Otolaryngologists              | 2022-09-13 12:00:00 |           4000 |
+|        149 | Dr. Pragna gada      |  Physiatrists                   | 2022-09-13 10:30:00 |           3000 |
+|        150 | Dr. Amee shah        |  Psychiatrists                  | 2022-09-13 11:00:00 |           6000 |
+|        151 | Dr. Gulabi sheth     |  Pulmonologists                 | 2022-09-13 11:00:00 |           4500 |
+|        152 | Dr. Anjali swami     |  Rheumatologists                | 2022-09-13 12:00:00 |           2000 |
+|        153 | Dr. Sagar raiya      |  Colon and Rectal Surgeons      | 2022-09-13 10:50:00 |           5000 |
+|        154 | Dr. Jay anam         |  Oncologists                    | 2022-09-13 11:30:00 |           7500 |
+|        155 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-13 11:00:00 |           3000 |
+|        156 | Dr. Mrunal chaudhari |  Dentistery & Dental Speciality | 2022-09-13 11:30:00 |           4500 |
+|        157 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-13 11:30:00 |           3000 |
+|        158 | Dr. Sandeep varma    |  Cardiologists                  | 2022-09-13 11:00:00 |           6000 |
+|        159 | Dr. Sandeep varma    |  Cardiologists                  | 2022-09-13 11:30:00 |           6000 |
+|        160 | Dr. Nikhil kedia     |  Nephrologists                  | 2022-09-13 11:20:00 |           4000 |
+|        161 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-13 14:00:00 |           3000 |
+|        162 | Dr. Harsh shah       |  Dermatologists                 | 2022-09-13 11:00:00 |           3000 |
+|        163 | Dr. Mrunal chaudhari |  Dentistery & Dental Speciality | 2022-09-13 12:00:00 |           4500 |
+|        164 | Dr. Nilesh shetty    |  Neurologists                   | 2022-09-13 11:00:00 |           8000 |
+|        165 | Dr. Ashok naydu      |  Gynecologists                  | 2022-09-13 12:30:00 |           5000 |
+|        166 | Dr. Jay anam         |  Oncologists                    | 2022-09-14 11:00:00 |           8000 |
+|        167 | Dr. Jinesh patani    |  Ophthalmologists               | 2022-09-14 10:00:00 |           2500 |
+|        168 | Dr. Rajesh Agaewal   |  Otolaryngologists              | 2022-09-14 12:00:00 |           4000 |
+|        169 | Dr. Pragna gada      |  Physiatrists                   | 2022-09-14 11:30:00 |           3000 |
+|        170 | Dr. Amee shah        |  Psychiatrists                  | 2022-09-14 11:00:00 |           6000 |
+|        171 | Dr. Gulabi sheth     |  Pulmonologists                 | 2022-09-14 12:00:00 |           4500 |
+|        172 | Dr. Anjali swami     |  Rheumatologists                | 2022-09-14 13:00:00 |           2000 |
+|        173 | Dr. Sagar raiya      |  Colon and Rectal Surgeons      | 2022-09-14 10:30:00 |           5000 |
+|        174 | Dr. Jay anam         |  Oncologists                    | 2022-09-14 11:30:00 |           7500 |
+|        175 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-14 10:00:00 |           3000 |
+|        176 | Dr. Jigna thakkar    |  Infectious Disease Specialists | 2022-09-14 11:00:00 |           6500 |
+|        177 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-14 11:00:00 |           3000 |
+|        178 | Dr. Sandeep varma    |  Cardiologists                  | 2022-09-14 11:00:00 |           6000 |
+|        179 | Dr. Sandeep varma    |  Cardiologists                  | 2022-09-14 11:30:00 |           6000 |
+|        180 | Dr. Nikhil kedia     |  Nephrologists                  | 2022-09-14 11:30:00 |           4000 |
+|        181 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-14 12:00:00 |           3000 |
+|        182 | Dr. Kalpana divekar  |  Immunologists                  | 2022-09-14 10:00:00 |           3000 |
+|        183 | Dr. Prasad bhuke     |  Anesthesiologists              | 2022-09-14 12:00:00 |          15000 |
+|        184 | Dr. Sandeep varma    |  Cardiologists                  | 2022-09-14 12:00:00 |           2000 |
+|        185 | Dr. Jinesh patani    |  Ophthalmologists               | 2022-09-14 10:30:00 |           2500 |
++------------+----------------------+---------------------------------+---------------------+----------------+
+85 rows in set (0.000 sec)
+
+MariaDB [project]> select patient_id,name,age,disease from patient_detail;
++------------+----------+------+---------------------+
+| patient_id | name     | age  | disease             |
++------------+----------+------+---------------------+
+|        101 | Sai      |   22 | food allergies      |
+|        102 | Rohan    |   45 | surgery             |
+|        103 | Aahan    |   55 | high blood pressure |
+|        104 | Bharti   |   45 | hemorrhoids         |
+|        105 | Daksh    |   35 | accident            |
+|        106 | Ishaan   |   40 | skin allergies      |
+|        107 | Sampada  |   65 | thyroid problems    |
+|        108 | Kamyukta |   55 | infertility         |
+|        109 | Ivaan    |   35 | pancreas            |
+|        110 | Hridhaan |   30 | gallbladder         |
+|        111 | Kanav    |   26 | hemophilia          |
+|        112 | Naitik   |   41 | Lyme disease        |
+|        113 | Kavya    |   35 | medical geneticists |
+|        114 | Pritani  |   65 | spinal tumors       |
+|        115 | Ketki    |   32 | pregnancy           |
+|        116 | Jyoti    |   49 | cancer              |
+|        117 | Lily     |   64 | glaucoma            |
+|        118 | Pratik   |   45 | ears                |
+|        119 | Rayaan   |   65 | back pain           |
+|        120 | Satvik   |   35 | depression          |
+|        121 | Takshi   |   45 | asthma              |
+|        122 | Bhavika  |   46 | fibromyalgia        |
+|        123 | Chetna   |   36 | hemorrhoids         |
+|        124 | Vedika   |   25 | cancer              |
+|        125 | Gudi     |   15 | calcium             |
+|        126 | Devdut   |   30 | accident            |
+|        127 | Yuvan    |   30 | AIDS,               |
+|        128 | Sumit    |   75 | heart attack        |
+|        129 | Arav     |   25 | calcium             |
+|        130 | Daksh    |   35 | high blood pressure |
+|        131 | Abhiri   |   45 | pancreas            |
+|        132 | Adwait   |   29 | food allergies      |
+|        133 | Ansh     |   13 | surgery             |
+|        134 | Archit   |   42 | high blood pressure |
+|        135 | Ishita   |   35 | hemorrhoids         |
+|        136 | Arin     |   22 | high blood pressure |
+|        137 | Nimisha  |   20 | thyroid problems    |
+|        138 | Pihu     |   35 | infertility         |
+|        139 | Samarth  |   25 | pancreas            |
+|        140 | Devansh  |   22 | gallbladder         |
+|        141 | Divyansh |   26 | hemophilia          |
+|        142 | Naitik   |   31 | Lyme disease        |
+|        143 | Jiya     |   33 | medical geneticists |
+|        144 | Manvi    |   35 | spinal tumors       |
+|        145 | Mishika  |   28 | pregnancy           |
+|        146 | Prachi   |   29 | cancer              |
+|        147 | Yana     |   24 | glaucoma            |
+|        148 | Surbhi   |   22 | ears                |
+|        149 | Kiaan    |   45 | back pain           |
+|        150 | Hridhaan |   22 | depression          |
+|        151 | Trisha   |   25 | asthma              |
+|        152 | Bhakti   |   36 | fibromyalgia        |
+|        153 | Samantha |   46 | hemorrhoids         |
+|        154 | Varsha   |   55 | cancer              |
+|        155 | Aarohi   |   55 | calcium             |
+|        156 | Anup     |   26 | accident            |
+|        157 | Sandesh  |   18 | thyroid problems,   |
+|        158 | Akshay   |   45 | heart attack        |
+|        159 | Rushi    |   55 | kidney disease      |
+|        160 | Deepak   |   25 | high blood pressure |
+|        161 | Meetali  |   39 | pancreas            |
+|        162 | Rajat    |   24 | skin allergies      |
+|        163 | Dakshita |   37 | medical geneticists |
+|        164 | Pranali  |   45 | spinal tumors       |
+|        165 | Pooja    |   35 | pregnancy           |
+|        166 | Malika   |   39 | cancer              |
+|        167 | Janvi    |   48 | glaucoma            |
+|        168 | Vanshika |   25 | ears                |
+|        169 | Jhone    |   35 | back pain           |
+|        170 | Farhat   |   37 | depression          |
+|        171 | Hindavi  |   46 | asthma              |
+|        172 | Shraddha |   26 | fibromyalgia        |
+|        173 | Manali   |   20 | hemorrhoids         |
+|        174 | Reheman  |   15 | cancer              |
+|        175 | Gautami  |   65 | gallbladder         |
+|        176 | Jasprit  |   37 | AIDS                |
+|        177 | Suresh   |   54 | thyroid problems,   |
+|        178 | Swarup   |   45 | heart attack        |
+|        179 | Amit     |   75 | kidney disease      |
+|        180 | Mayur    |   65 | high blood pressure |
+|        181 | Udati    |   56 | pancreas            |
+|        182 | Hooda    |   49 | food allergies      |
+|        183 | Kimir    |   29 | surgery             |
+|        184 | Emran    |   32 | high blood pressure |
+|        185 | Ketki    |   65 | eye                 |
++------------+----------+------+---------------------+
+85 rows in set (0.001 sec)
+
+MariaDB [project]> select * from patient_detail where patient_id=151;
++------------+--------+--------+------+------------+---------+
+| Patient_id | Name   | Gender | Age  | Mobile_no  | Disease |
++------------+--------+--------+------+------------+---------+
+|        151 | Trisha | Female |   25 | 8874569412 | asthma  |
++------------+--------+--------+------+------------+---------+
+1 row in set (0.001 sec)
+
+MariaDB [project]> select * from patient_detail where patient_id in (122,146,175,182);
++------------+---------+--------+------+------------+----------------+
+| Patient_id | Name    | Gender | Age  | Mobile_no  | Disease        |
++------------+---------+--------+------+------------+----------------+
+|        122 | Bhavika | Female |   46 | 7945621456 | fibromyalgia   |
+|        146 | Prachi  | Female |   29 | 8745632145 | cancer         |
+|        175 | Gautami | Female |   65 | 7896548651 | gallbladder    |
+|        182 | Hooda   | Male   |   49 | 9614563245 | food allergies |
++------------+---------+--------+------+------------+----------------+
+4 rows in set (0.002 sec)
+
+MariaDB [project]> select * from patient_detail where patient_id not in (122,146,175,182);
++------------+----------+--------+------+------------+---------------------+
+| Patient_id | Name     | Gender | Age  | Mobile_no  | Disease             |
++------------+----------+--------+------+------------+---------------------+
+|        101 | Sai      | Male   |   22 | 8956985624 | food allergies      |
+|        102 | Rohan    | Male   |   45 | 9945632145 | surgery             |
+|        103 | Aahan    | Male   |   55 | 9745698562 | high blood pressure |
+|        104 | Bharti   | Female |   45 | 7596451265 | hemorrhoids         |
+|        105 | Daksh    | Male   |   35 | 7596451265 | accident            |
+|        106 | Ishaan   | Male   |   40 | 8641239654 | skin allergies      |
+|        107 | Sampada  | Female |   65 | 7459621456 | thyroid problems    |
+|        108 | Kamyukta | Female |   55 | 7596451265 | infertility         |
+|        109 | Ivaan    | Male   |   35 | 7586123654 | pancreas            |
+|        110 | Hridhaan | Male   |   30 | 7978456985 | gallbladder         |
+|        111 | Kanav    | Male   |   26 | 9547965235 | hemophilia          |
+|        112 | Naitik   | Male   |   41 | 7469857412 | Lyme disease        |
+|        113 | Kavya    | Female |   35 | 8654795469 | medical geneticists |
+|        114 | Pritani  | Female |   65 | 7894562145 | spinal tumors       |
+|        115 | Ketki    | Female |   32 | 8796541264 | pregnancy           |
+|        116 | Jyoti    | Female |   49 | 8879459626 | cancer              |
+|        117 | Lily     | Female |   64 | 7984659654 | glaucoma            |
+|        118 | Pratik   | Female |   45 | 8548654269 | ears                |
+|        119 | Rayaan   | Male   |   65 | 7845123654 | back pain           |
+|        120 | Satvik   | Male   |   35 | 7459684512 | depression          |
+|        121 | Takshi   | Female |   45 | 7596459651 | asthma              |
+|        123 | Chetna   | Female |   36 | 7541269856 | hemorrhoids         |
+|        124 | Vedika   | Female |   25 | 8845964785 | cancer              |
+|        125 | Gudi     | Female |   15 | 8451236547 | calcium             |
+|        126 | Devdut   | Male   |   30 | 7548659845 | accident            |
+|        127 | Yuvan    | Male   |   30 | 7645123654 | AIDS,               |
+|        128 | Sumit    | Male   |   75 | 7945632148 | heart attack        |
+|        129 | Arav     | Male   |   25 | 7785694563 | calcium             |
+|        130 | Daksh    | Male   |   35 | 7596451265 | high blood pressure |
+|        131 | Abhiri   | Female |   45 | 7894563214 | pancreas            |
+|        132 | Adwait   | Male   |   29 | 8123456987 | food allergies      |
+|        133 | Ansh     | Male   |   13 | 9475612348 | surgery             |
+|        134 | Archit   | Male   |   42 | 9784563214 | high blood pressure |
+|        135 | Ishita   | Female |   35 | 7894563214 | hemorrhoids         |
+|        136 | Arin     | Male   |   22 | 8457964123 | high blood pressure |
+|        137 | Nimisha  | Female |   20 | 7845961234 | thyroid problems    |
+|        138 | Pihu     | Female |   35 | 7945841236 | infertility         |
+|        139 | Samarth  | Male   |   25 | 7945612345 | pancreas            |
+|        140 | Devansh  | Male   |   22 | 7951462314 | gallbladder         |
+|        141 | Divyansh | Male   |   26 | 7845961234 | hemophilia          |
+|        142 | Naitik   | Male   |   31 | 7485961425 | Lyme disease        |
+|        143 | Jiya     | Female |   33 | 8759612345 | medical geneticists |
+|        144 | Manvi    | Female |   35 | 7481967453 | spinal tumors       |
+|        145 | Mishika  | Female |   28 | 7456319874 | pregnancy           |
+|        147 | Yana     | Female |   24 | 8265415865 | glaucoma            |
+|        148 | Surbhi   | Female |   22 | 8874569842 | ears                |
+|        149 | Kiaan    | Male   |   45 | 9945612345 | back pain           |
+|        150 | Hridhaan | Male   |   22 | 8745967485 | depression          |
+|        151 | Trisha   | Female |   25 | 8874569412 | asthma              |
+|        152 | Bhakti   | Female |   36 | 7945621456 | fibromyalgia        |
+|        153 | Samantha | Female |   46 | 8874316542 | hemorrhoids         |
+|        154 | Varsha   | Female |   55 | 9874561234 | cancer              |
+|        155 | Aarohi   | Female |   55 | 9745861265 | calcium             |
+|        156 | Anup     | Male   |   26 | 9874568745 | accident            |
+|        157 | Sandesh  | Male   |   18 | 8974587457 | thyroid problems,   |
+|        158 | Akshay   | Male   |   45 | 8745632145 | heart attack        |
+|        159 | Rushi    | Male   |   55 | 9748569874 | kidney disease      |
+|        160 | Deepak   | Male   |   25 | 9874578965 | high blood pressure |
+|        161 | Meetali  | Female |   39 | 7894563214 | pancreas            |
+|        162 | Rajat    | Male   |   24 | 8974813462 | skin allergies      |
+|        163 | Dakshita | Female |   37 | 8759612345 | medical geneticists |
+|        164 | Pranali  | Female |   45 | 7489612345 | spinal tumors       |
+|        165 | Pooja    | Female |   35 | 8998453216 | pregnancy           |
+|        166 | Malika   | Female |   39 | 9784596321 | cancer              |
+|        167 | Janvi    | Female |   48 | 8796542657 | glaucoma            |
+|        168 | Vanshika | Female |   25 | 4867459345 | ears                |
+|        169 | Jhone    | Male   |   35 | 9874859614 | back pain           |
+|        170 | Farhat   | Male   |   37 | 8784596145 | depression          |
+|        171 | Hindavi  | Female |   46 | 8874569412 | asthma              |
+|        172 | Shraddha | Female |   26 | 7896412563 | fibromyalgia        |
+|        173 | Manali   | Female |   20 | 7845962313 | hemorrhoids         |
+|        174 | Reheman  | Male   |   15 | 9321548694 | cancer              |
+|        176 | Jasprit  | Male   |   37 | 7548659845 | AIDS                |
+|        177 | Suresh   | Male   |   54 | 8794578695 | thyroid problems,   |
+|        178 | Swarup   | Male   |   45 | 8798457869 | heart attack        |
+|        179 | Amit     | Male   |   75 | 9878789878 | kidney disease      |
+|        180 | Mayur    | Male   |   65 | 7896547859 | high blood pressure |
+|        181 | Udati    | Female |   56 | 8896547859 | pancreas            |
+|        183 | Kimir    | Male   |   29 | 9648569742 | surgery             |
+|        184 | Emran    | Male   |   32 | 9124563254 | high blood pressure |
+|        185 | Ketki    | Female |   65 | 9247856953 | eye                 |
++------------+----------+--------+------+------------+---------------------+
+81 rows in set (0.001 sec)
+
+MariaDB [project]> select * from patient_detail order by name;
++------------+----------+--------+------+------------+---------------------+
+| Patient_id | Name     | Gender | Age  | Mobile_no  | Disease             |
++------------+----------+--------+------+------------+---------------------+
+|        103 | Aahan    | Male   |   55 | 9745698562 | high blood pressure |
+|        155 | Aarohi   | Female |   55 | 9745861265 | calcium             |
+|        131 | Abhiri   | Female |   45 | 7894563214 | pancreas            |
+|        132 | Adwait   | Male   |   29 | 8123456987 | food allergies      |
+|        158 | Akshay   | Male   |   45 | 8745632145 | heart attack        |
+|        179 | Amit     | Male   |   75 | 9878789878 | kidney disease      |
+|        133 | Ansh     | Male   |   13 | 9475612348 | surgery             |
+|        156 | Anup     | Male   |   26 | 9874568745 | accident            |
+|        129 | Arav     | Male   |   25 | 7785694563 | calcium             |
+|        134 | Archit   | Male   |   42 | 9784563214 | high blood pressure |
+|        136 | Arin     | Male   |   22 | 8457964123 | high blood pressure |
+|        152 | Bhakti   | Female |   36 | 7945621456 | fibromyalgia        |
+|        104 | Bharti   | Female |   45 | 7596451265 | hemorrhoids         |
+|        122 | Bhavika  | Female |   46 | 7945621456 | fibromyalgia        |
+|        123 | Chetna   | Female |   36 | 7541269856 | hemorrhoids         |
+|        130 | Daksh    | Male   |   35 | 7596451265 | high blood pressure |
+|        105 | Daksh    | Male   |   35 | 7596451265 | accident            |
+|        163 | Dakshita | Female |   37 | 8759612345 | medical geneticists |
+|        160 | Deepak   | Male   |   25 | 9874578965 | high blood pressure |
+|        140 | Devansh  | Male   |   22 | 7951462314 | gallbladder         |
+|        126 | Devdut   | Male   |   30 | 7548659845 | accident            |
+|        141 | Divyansh | Male   |   26 | 7845961234 | hemophilia          |
+|        184 | Emran    | Male   |   32 | 9124563254 | high blood pressure |
+|        170 | Farhat   | Male   |   37 | 8784596145 | depression          |
+|        175 | Gautami  | Female |   65 | 7896548651 | gallbladder         |
+|        125 | Gudi     | Female |   15 | 8451236547 | calcium             |
+|        171 | Hindavi  | Female |   46 | 8874569412 | asthma              |
+|        182 | Hooda    | Male   |   49 | 9614563245 | food allergies      |
+|        150 | Hridhaan | Male   |   22 | 8745967485 | depression          |
+|        110 | Hridhaan | Male   |   30 | 7978456985 | gallbladder         |
+|        106 | Ishaan   | Male   |   40 | 8641239654 | skin allergies      |
+|        135 | Ishita   | Female |   35 | 7894563214 | hemorrhoids         |
+|        109 | Ivaan    | Male   |   35 | 7586123654 | pancreas            |
+|        167 | Janvi    | Female |   48 | 8796542657 | glaucoma            |
+|        176 | Jasprit  | Male   |   37 | 7548659845 | AIDS                |
+|        169 | Jhone    | Male   |   35 | 9874859614 | back pain           |
+|        143 | Jiya     | Female |   33 | 8759612345 | medical geneticists |
+|        116 | Jyoti    | Female |   49 | 8879459626 | cancer              |
+|        108 | Kamyukta | Female |   55 | 7596451265 | infertility         |
+|        111 | Kanav    | Male   |   26 | 9547965235 | hemophilia          |
+|        113 | Kavya    | Female |   35 | 8654795469 | medical geneticists |
+|        185 | Ketki    | Female |   65 | 9247856953 | eye                 |
+|        115 | Ketki    | Female |   32 | 8796541264 | pregnancy           |
+|        149 | Kiaan    | Male   |   45 | 9945612345 | back pain           |
+|        183 | Kimir    | Male   |   29 | 9648569742 | surgery             |
+|        117 | Lily     | Female |   64 | 7984659654 | glaucoma            |
+|        166 | Malika   | Female |   39 | 9784596321 | cancer              |
+|        173 | Manali   | Female |   20 | 7845962313 | hemorrhoids         |
+|        144 | Manvi    | Female |   35 | 7481967453 | spinal tumors       |
+|        180 | Mayur    | Male   |   65 | 7896547859 | high blood pressure |
+|        161 | Meetali  | Female |   39 | 7894563214 | pancreas            |
+|        145 | Mishika  | Female |   28 | 7456319874 | pregnancy           |
+|        142 | Naitik   | Male   |   31 | 7485961425 | Lyme disease        |
+|        112 | Naitik   | Male   |   41 | 7469857412 | Lyme disease        |
+|        137 | Nimisha  | Female |   20 | 7845961234 | thyroid problems    |
+|        138 | Pihu     | Female |   35 | 7945841236 | infertility         |
+|        165 | Pooja    | Female |   35 | 8998453216 | pregnancy           |
+|        146 | Prachi   | Female |   29 | 8745632145 | cancer              |
+|        164 | Pranali  | Female |   45 | 7489612345 | spinal tumors       |
+|        118 | Pratik   | Female |   45 | 8548654269 | ears                |
+|        114 | Pritani  | Female |   65 | 7894562145 | spinal tumors       |
+|        162 | Rajat    | Male   |   24 | 8974813462 | skin allergies      |
+|        119 | Rayaan   | Male   |   65 | 7845123654 | back pain           |
+|        174 | Reheman  | Male   |   15 | 9321548694 | cancer              |
+|        102 | Rohan    | Male   |   45 | 9945632145 | surgery             |
+|        159 | Rushi    | Male   |   55 | 9748569874 | kidney disease      |
+|        101 | Sai      | Male   |   22 | 8956985624 | food allergies      |
+|        153 | Samantha | Female |   46 | 8874316542 | hemorrhoids         |
+|        139 | Samarth  | Male   |   25 | 7945612345 | pancreas            |
+|        107 | Sampada  | Female |   65 | 7459621456 | thyroid problems    |
+|        157 | Sandesh  | Male   |   18 | 8974587457 | thyroid problems,   |
+|        120 | Satvik   | Male   |   35 | 7459684512 | depression          |
+|        172 | Shraddha | Female |   26 | 7896412563 | fibromyalgia        |
+|        128 | Sumit    | Male   |   75 | 7945632148 | heart attack        |
+|        148 | Surbhi   | Female |   22 | 8874569842 | ears                |
+|        177 | Suresh   | Male   |   54 | 8794578695 | thyroid problems,   |
+|        178 | Swarup   | Male   |   45 | 8798457869 | heart attack        |
+|        121 | Takshi   | Female |   45 | 7596459651 | asthma              |
+|        151 | Trisha   | Female |   25 | 8874569412 | asthma              |
+|        181 | Udati    | Female |   56 | 8896547859 | pancreas            |
+|        168 | Vanshika | Female |   25 | 4867459345 | ears                |
+|        154 | Varsha   | Female |   55 | 9874561234 | cancer              |
+|        124 | Vedika   | Female |   25 | 8845964785 | cancer              |
+|        147 | Yana     | Female |   24 | 8265415865 | glaucoma            |
+|        127 | Yuvan    | Male   |   30 | 7645123654 | AIDS,               |
++------------+----------+--------+------+------------+---------------------+
+85 rows in set (0.001 sec)
+
+MariaDB [project]> select * from patient_detail order by name desc;
++------------+----------+--------+------+------------+---------------------+
+| Patient_id | Name     | Gender | Age  | Mobile_no  | Disease             |
++------------+----------+--------+------+------------+---------------------+
+|        127 | Yuvan    | Male   |   30 | 7645123654 | AIDS,               |
+|        147 | Yana     | Female |   24 | 8265415865 | glaucoma            |
+|        124 | Vedika   | Female |   25 | 8845964785 | cancer              |
+|        154 | Varsha   | Female |   55 | 9874561234 | cancer              |
+|        168 | Vanshika | Female |   25 | 4867459345 | ears                |
+|        181 | Udati    | Female |   56 | 8896547859 | pancreas            |
+|        151 | Trisha   | Female |   25 | 8874569412 | asthma              |
+|        121 | Takshi   | Female |   45 | 7596459651 | asthma              |
+|        178 | Swarup   | Male   |   45 | 8798457869 | heart attack        |
+|        177 | Suresh   | Male   |   54 | 8794578695 | thyroid problems,   |
+|        148 | Surbhi   | Female |   22 | 8874569842 | ears                |
+|        128 | Sumit    | Male   |   75 | 7945632148 | heart attack        |
+|        172 | Shraddha | Female |   26 | 7896412563 | fibromyalgia        |
+|        120 | Satvik   | Male   |   35 | 7459684512 | depression          |
+|        157 | Sandesh  | Male   |   18 | 8974587457 | thyroid problems,   |
+|        107 | Sampada  | Female |   65 | 7459621456 | thyroid problems    |
+|        139 | Samarth  | Male   |   25 | 7945612345 | pancreas            |
+|        153 | Samantha | Female |   46 | 8874316542 | hemorrhoids         |
+|        101 | Sai      | Male   |   22 | 8956985624 | food allergies      |
+|        159 | Rushi    | Male   |   55 | 9748569874 | kidney disease      |
+|        102 | Rohan    | Male   |   45 | 9945632145 | surgery             |
+|        174 | Reheman  | Male   |   15 | 9321548694 | cancer              |
+|        119 | Rayaan   | Male   |   65 | 7845123654 | back pain           |
+|        162 | Rajat    | Male   |   24 | 8974813462 | skin allergies      |
+|        114 | Pritani  | Female |   65 | 7894562145 | spinal tumors       |
+|        118 | Pratik   | Female |   45 | 8548654269 | ears                |
+|        164 | Pranali  | Female |   45 | 7489612345 | spinal tumors       |
+|        146 | Prachi   | Female |   29 | 8745632145 | cancer              |
+|        165 | Pooja    | Female |   35 | 8998453216 | pregnancy           |
+|        138 | Pihu     | Female |   35 | 7945841236 | infertility         |
+|        137 | Nimisha  | Female |   20 | 7845961234 | thyroid problems    |
+|        112 | Naitik   | Male   |   41 | 7469857412 | Lyme disease        |
+|        142 | Naitik   | Male   |   31 | 7485961425 | Lyme disease        |
+|        145 | Mishika  | Female |   28 | 7456319874 | pregnancy           |
+|        161 | Meetali  | Female |   39 | 7894563214 | pancreas            |
+|        180 | Mayur    | Male   |   65 | 7896547859 | high blood pressure |
+|        144 | Manvi    | Female |   35 | 7481967453 | spinal tumors       |
+|        173 | Manali   | Female |   20 | 7845962313 | hemorrhoids         |
+|        166 | Malika   | Female |   39 | 9784596321 | cancer              |
+|        117 | Lily     | Female |   64 | 7984659654 | glaucoma            |
+|        183 | Kimir    | Male   |   29 | 9648569742 | surgery             |
+|        149 | Kiaan    | Male   |   45 | 9945612345 | back pain           |
+|        185 | Ketki    | Female |   65 | 9247856953 | eye                 |
+|        115 | Ketki    | Female |   32 | 8796541264 | pregnancy           |
+|        113 | Kavya    | Female |   35 | 8654795469 | medical geneticists |
+|        111 | Kanav    | Male   |   26 | 9547965235 | hemophilia          |
+|        108 | Kamyukta | Female |   55 | 7596451265 | infertility         |
+|        116 | Jyoti    | Female |   49 | 8879459626 | cancer              |
+|        143 | Jiya     | Female |   33 | 8759612345 | medical geneticists |
+|        169 | Jhone    | Male   |   35 | 9874859614 | back pain           |
+|        176 | Jasprit  | Male   |   37 | 7548659845 | AIDS                |
+|        167 | Janvi    | Female |   48 | 8796542657 | glaucoma            |
+|        109 | Ivaan    | Male   |   35 | 7586123654 | pancreas            |
+|        135 | Ishita   | Female |   35 | 7894563214 | hemorrhoids         |
+|        106 | Ishaan   | Male   |   40 | 8641239654 | skin allergies      |
+|        150 | Hridhaan | Male   |   22 | 8745967485 | depression          |
+|        110 | Hridhaan | Male   |   30 | 7978456985 | gallbladder         |
+|        182 | Hooda    | Male   |   49 | 9614563245 | food allergies      |
+|        171 | Hindavi  | Female |   46 | 8874569412 | asthma              |
+|        125 | Gudi     | Female |   15 | 8451236547 | calcium             |
+|        175 | Gautami  | Female |   65 | 7896548651 | gallbladder         |
+|        170 | Farhat   | Male   |   37 | 8784596145 | depression          |
+|        184 | Emran    | Male   |   32 | 9124563254 | high blood pressure |
+|        141 | Divyansh | Male   |   26 | 7845961234 | hemophilia          |
+|        126 | Devdut   | Male   |   30 | 7548659845 | accident            |
+|        140 | Devansh  | Male   |   22 | 7951462314 | gallbladder         |
+|        160 | Deepak   | Male   |   25 | 9874578965 | high blood pressure |
+|        163 | Dakshita | Female |   37 | 8759612345 | medical geneticists |
+|        130 | Daksh    | Male   |   35 | 7596451265 | high blood pressure |
+|        105 | Daksh    | Male   |   35 | 7596451265 | accident            |
+|        123 | Chetna   | Female |   36 | 7541269856 | hemorrhoids         |
+|        122 | Bhavika  | Female |   46 | 7945621456 | fibromyalgia        |
+|        104 | Bharti   | Female |   45 | 7596451265 | hemorrhoids         |
+|        152 | Bhakti   | Female |   36 | 7945621456 | fibromyalgia        |
+|        136 | Arin     | Male   |   22 | 8457964123 | high blood pressure |
+|        134 | Archit   | Male   |   42 | 9784563214 | high blood pressure |
+|        129 | Arav     | Male   |   25 | 7785694563 | calcium             |
+|        156 | Anup     | Male   |   26 | 9874568745 | accident            |
+|        133 | Ansh     | Male   |   13 | 9475612348 | surgery             |
+|        179 | Amit     | Male   |   75 | 9878789878 | kidney disease      |
+|        158 | Akshay   | Male   |   45 | 8745632145 | heart attack        |
+|        132 | Adwait   | Male   |   29 | 8123456987 | food allergies      |
+|        131 | Abhiri   | Female |   45 | 7894563214 | pancreas            |
+|        155 | Aarohi   | Female |   55 | 9745861265 | calcium             |
+|        103 | Aahan    | Male   |   55 | 9745698562 | high blood pressure |
++------------+----------+--------+------+------------+---------------------+
+85 rows in set (0.001 sec)
+
+MariaDB [project]> update patient_detail set name='manya' where patient_id=122;
+Query OK, 1 row affected (0.039 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+MariaDB [project]> alter table patient_detail add sname varchar(25) after name;
+Query OK, 0 rows affected (0.067 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [project]> update patient_detail set sname='patil' where patient_id=101;
+Query OK, 1 row affected (0.026 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+MariaDB [project]> alter table patient_detail drop sname;
+Query OK, 0 rows affected (0.057 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [project]> select * from hospital_detail where doctor_charges is null;
+Empty set (0.000 sec)
+
+MariaDB [project]> select * from hospital_detail where doctor_charges is not null;
++------------+----------------------+---------------------------------+---------------------+----------------+
+| Patient_id | Doctor_name          | Department                      | Appointment         | doctor_charges |
++------------+----------------------+---------------------------------+---------------------+----------------+
+|        101 | Dr. Kalpana divekar  |  Immunologists                  | 2022-09-12 10:00:00 |           3000 |
+|        102 | Dr. Prasad bhukebag  |  Anesthesiologists              | 2022-09-12 12:00:00 |          15000 |
+|        103 | Dr. Sandeep varma    |  Cardiologists                  | 2022-09-12 11:00:00 |           2000 |
+|        104 | Dr. Sagar raiya      |  Colon and Rectal Surgeons      | 2022-09-12 10:00:00 |           5000 |
+|        105 | Dr. Rajesh Agaewal   |  Otolaryngologists              | 2022-09-12 12:30:00 |           4000 |
+|        106 | Dr. Harsh shah       |  Dermatologists                 | 2022-09-12 11:00:00 |           3000 |
+|        107 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-12 10:30:00 |           3000 |
+|        108 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-12 11:00:00 |           3000 |
+|        109 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-12 14:00:00 |           3500 |
+|        110 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-12 14:20:00 |           3000 |
+|        111 | Dr. Hemant Jain      |  Hematologists                  | 2022-09-12 09:30:00 |           6000 |
+|        112 | Dr. Jigna thakkar    |  Infectious Disease Specialists | 2022-09-12 10:00:00 |           4000 |
+|        113 | Dr. Mrunal chaudhari |  Dentistery & Dental Speciality | 2022-09-12 10:00:00 |           4500 |
+|        114 | Dr. Nilesh shetty    |  Neurologists                   | 2022-09-12 10:30:00 |           8000 |
+|        115 | Dr. Ashok naydu      |  Gynecologists                  | 2022-09-12 13:00:00 |           5000 |
+|        116 | Dr. Jay anam         |  Oncologists                    | 2022-09-12 11:00:00 |           8000 |
+|        117 | Dr. Jinesh patani    |  Ophthalmologists               | 2022-09-12 10:00:00 |           2500 |
+|        118 | Dr. Rajesh Agaewal   |  Otolaryngologists              | 2022-09-12 13:00:00 |           4000 |
+|        119 | Dr. Pragna gada      |  Physiatrists                   | 2022-09-12 09:30:00 |           3000 |
+|        120 | Dr. Amee shah        |  Psychiatrists                  | 2022-09-12 15:00:00 |           6000 |
+|        121 | Dr. Gulabi sheth     |  Pulmonologists                 | 2022-09-12 11:00:00 |           4500 |
+|        122 | Dr. Anjali swami     |  Rheumatologists                | 2022-09-12 13:00:00 |           2000 |
+|        123 | Dr. Sagar raiya      |  Colon and Rectal Surgeons      | 2022-09-12 10:30:00 |           5000 |
+|        124 | Dr. Jay anam         |  Oncologists                    | 2022-09-12 11:30:00 |           7500 |
+|        125 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-12 11:30:00 |           3000 |
+|        126 | Dr. Rajesh Agaewal   |  Otolaryngologists              | 2022-09-12 13:00:00 |           4000 |
+|        127 | Dr. Jigna thakkar    |  Infectious Disease Specialists | 2022-09-12 11:00:00 |           6500 |
+|        128 | Dr. Sandeep varma    |  Cardiologists                  | 2022-09-12 11:30:00 |           6000 |
+|        129 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-12 12:00:00 |           3000 |
+|        130 | Dr. Nikhil kedia     |  Nephrologists                  | 2022-09-12 12:00:00 |           5000 |
+|        131 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-12 14:40:00 |           3000 |
+|        132 | Dr. Kalpana divekar  |  Immunologists                  | 2022-09-13 09:30:00 |           3000 |
+|        133 | Dr. Prasad bhuke     |  Anesthesiologists              | 2022-09-13 12:00:00 |          12000 |
+|        134 | Dr. Nikhil kedia     |  Nephrologists                  | 2022-09-13 10:00:00 |           4000 |
+|        135 | Dr. Sagar raiya      |  Colon and Rectal Surgeons      | 2022-09-13 10:00:00 |           5000 |
+|        136 | Dr. Nikhil kedia     |  Nephrologists                  | 2022-09-13 11:00:00 |           4000 |
+|        137 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-13 10:00:00 |           3000 |
+|        138 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-13 10:30:00 |           3000 |
+|        139 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-13 13:00:00 |           3000 |
+|        140 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-13 13:30:00 |           3000 |
+|        141 | Dr. Hemant Jain      |  Hematologists                  | 2022-09-13 09:30:00 |           6000 |
+|        142 | Dr. Jigna thakkar    |  Infectious Disease Specialists | 2022-09-13 10:00:00 |           4000 |
+|        143 | Dr. Mrunal chaudhari |  Dentistery & Dental Speciality | 2022-09-13 11:00:00 |           4500 |
+|        144 | Dr. Nilesh shetty    |  Neurologists                   | 2022-09-13 10:30:00 |           6000 |
+|        145 | Dr. Ashok naydu      |  Gynecologists                  | 2022-09-13 12:00:00 |           5000 |
+|        146 | Dr. Jay anam         |  Oncologists                    | 2022-09-13 11:00:00 |           8000 |
+|        147 | Dr. Jinesh patani    |  Ophthalmologists               | 2022-09-13 10:00:00 |           2500 |
+|        148 | Dr. Rajesh Agaewal   |  Otolaryngologists              | 2022-09-13 12:00:00 |           4000 |
+|        149 | Dr. Pragna gada      |  Physiatrists                   | 2022-09-13 10:30:00 |           3000 |
+|        150 | Dr. Amee shah        |  Psychiatrists                  | 2022-09-13 11:00:00 |           6000 |
+|        151 | Dr. Gulabi sheth     |  Pulmonologists                 | 2022-09-13 11:00:00 |           4500 |
+|        152 | Dr. Anjali swami     |  Rheumatologists                | 2022-09-13 12:00:00 |           2000 |
+|        153 | Dr. Sagar raiya      |  Colon and Rectal Surgeons      | 2022-09-13 10:50:00 |           5000 |
+|        154 | Dr. Jay anam         |  Oncologists                    | 2022-09-13 11:30:00 |           7500 |
+|        155 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-13 11:00:00 |           3000 |
+|        156 | Dr. Mrunal chaudhari |  Dentistery & Dental Speciality | 2022-09-13 11:30:00 |           4500 |
+|        157 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-13 11:30:00 |           3000 |
+|        158 | Dr. Sandeep varma    |  Cardiologists                  | 2022-09-13 11:00:00 |           6000 |
+|        159 | Dr. Sandeep varma    |  Cardiologists                  | 2022-09-13 11:30:00 |           6000 |
+|        160 | Dr. Nikhil kedia     |  Nephrologists                  | 2022-09-13 11:20:00 |           4000 |
+|        161 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-13 14:00:00 |           3000 |
+|        162 | Dr. Harsh shah       |  Dermatologists                 | 2022-09-13 11:00:00 |           3000 |
+|        163 | Dr. Mrunal chaudhari |  Dentistery & Dental Speciality | 2022-09-13 12:00:00 |           4500 |
+|        164 | Dr. Nilesh shetty    |  Neurologists                   | 2022-09-13 11:00:00 |           8000 |
+|        165 | Dr. Ashok naydu      |  Gynecologists                  | 2022-09-13 12:30:00 |           5000 |
+|        166 | Dr. Jay anam         |  Oncologists                    | 2022-09-14 11:00:00 |           8000 |
+|        167 | Dr. Jinesh patani    |  Ophthalmologists               | 2022-09-14 10:00:00 |           2500 |
+|        168 | Dr. Rajesh Agaewal   |  Otolaryngologists              | 2022-09-14 12:00:00 |           4000 |
+|        169 | Dr. Pragna gada      |  Physiatrists                   | 2022-09-14 11:30:00 |           3000 |
+|        170 | Dr. Amee shah        |  Psychiatrists                  | 2022-09-14 11:00:00 |           6000 |
+|        171 | Dr. Gulabi sheth     |  Pulmonologists                 | 2022-09-14 12:00:00 |           4500 |
+|        172 | Dr. Anjali swami     |  Rheumatologists                | 2022-09-14 13:00:00 |           2000 |
+|        173 | Dr. Sagar raiya      |  Colon and Rectal Surgeons      | 2022-09-14 10:30:00 |           5000 |
+|        174 | Dr. Jay anam         |  Oncologists                    | 2022-09-14 11:30:00 |           7500 |
+|        175 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-14 10:00:00 |           3000 |
+|        176 | Dr. Jigna thakkar    |  Infectious Disease Specialists | 2022-09-14 11:00:00 |           6500 |
+|        177 | Dr. Virendra Patil   |  Endocrinologists               | 2022-09-14 11:00:00 |           3000 |
+|        178 | Dr. Sandeep varma    |  Cardiologists                  | 2022-09-14 11:00:00 |           6000 |
+|        179 | Dr. Sandeep varma    |  Cardiologists                  | 2022-09-14 11:30:00 |           6000 |
+|        180 | Dr. Nikhil kedia     |  Nephrologists                  | 2022-09-14 11:30:00 |           4000 |
+|        181 | Dr. Mandar Arekar    |  Gastroenterologists            | 2022-09-14 12:00:00 |           3000 |
+|        182 | Dr. Kalpana divekar  |  Immunologists                  | 2022-09-14 10:00:00 |           3000 |
+|        183 | Dr. Prasad bhuke     |  Anesthesiologists              | 2022-09-14 12:00:00 |          15000 |
+|        184 | Dr. Sandeep varma    |  Cardiologists                  | 2022-09-14 12:00:00 |           2000 |
+|        185 | Dr. Jinesh patani    |  Ophthalmologists               | 2022-09-14 10:30:00 |           2500 |
++------------+----------------------+---------------------------------+---------------------+----------------+
+85 rows in set (0.000 sec)
+
+MariaDB [project]> desc patient_detail;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| Patient_id | int(11)     | NO   | PRI | NULL    |       |
+| Name       | varchar(25) | YES  |     | NULL    |       |
+| Gender     | varchar(10) | YES  |     | NULL    |       |
+| Age        | int(11)     | YES  |     | NULL    |       |
+| Mobile_no  | varchar(10) | YES  |     | NULL    |       |
+| Disease    | varchar(65) | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+6 rows in set (0.003 sec)
+
+MariaDB [project]> alter table patient_detail drop primary key;
+Query OK, 85 rows affected (0.584 sec)
+Records: 85  Duplicates: 0  Warnings: 0
+
+MariaDB [project]> desc patient_detail;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| Patient_id | int(11)     | NO   |     | NULL    |       |
+| Name       | varchar(25) | YES  |     | NULL    |       |
+| Gender     | varchar(10) | YES  |     | NULL    |       |
+| Age        | int(11)     | YES  |     | NULL    |       |
+| Mobile_no  | varchar(10) | YES  |     | NULL    |       |
+| Disease    | varchar(65) | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+6 rows in set (0.007 sec)
+
+MariaDB [project]> alter table patient_detail add primary key(patient_id);
+Query OK, 0 rows affected (0.311 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+MariaDB [project]> desc patient_detail;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| Patient_id | int(11)     | NO   | PRI | NULL    |       |
+| Name       | varchar(25) | YES  |     | NULL    |       |
+| Gender     | varchar(10) | YES  |     | NULL    |       |
+| Age        | int(11)     | YES  |     | NULL    |       |
+| Mobile_no  | varchar(10) | YES  |     | NULL    |       |
+| Disease    | varchar(65) | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+6 rows in set (0.006 sec)
+
+MariaDB [project]> select * from patient_detail where age>=30;
++------------+----------+--------+------+------------+---------------------+
+| Patient_id | Name     | Gender | Age  | Mobile_no  | Disease             |
++------------+----------+--------+------+------------+---------------------+
+|        102 | Rohan    | Male   |   45 | 9945632145 | surgery             |
+|        103 | Aahan    | Male   |   55 | 9745698562 | high blood pressure |
+|        104 | Bharti   | Female |   45 | 7596451265 | hemorrhoids         |
+|        105 | Daksh    | Male   |   35 | 7596451265 | accident            |
+|        106 | Ishaan   | Male   |   40 | 8641239654 | skin allergies      |
+|        107 | Sampada  | Female |   65 | 7459621456 | thyroid problems    |
+|        108 | Kamyukta | Female |   55 | 7596451265 | infertility         |
+|        109 | Ivaan    | Male   |   35 | 7586123654 | pancreas            |
+|        110 | Hridhaan | Male   |   30 | 7978456985 | gallbladder         |
+|        112 | Naitik   | Male   |   41 | 7469857412 | Lyme disease        |
+|        113 | Kavya    | Female |   35 | 8654795469 | medical geneticists |
+|        114 | Pritani  | Female |   65 | 7894562145 | spinal tumors       |
+|        115 | Ketki    | Female |   32 | 8796541264 | pregnancy           |
+|        116 | Jyoti    | Female |   49 | 8879459626 | cancer              |
+|        117 | Lily     | Female |   64 | 7984659654 | glaucoma            |
+|        118 | Pratik   | Female |   45 | 8548654269 | ears                |
+|        119 | Rayaan   | Male   |   65 | 7845123654 | back pain           |
+|        120 | Satvik   | Male   |   35 | 7459684512 | depression          |
+|        121 | Takshi   | Female |   45 | 7596459651 | asthma              |
+|        122 | manya    | Female |   46 | 7945621456 | fibromyalgia        |
+|        123 | Chetna   | Female |   36 | 7541269856 | hemorrhoids         |
+|        126 | Devdut   | Male   |   30 | 7548659845 | accident            |
+|        127 | Yuvan    | Male   |   30 | 7645123654 | AIDS,               |
+|        128 | Sumit    | Male   |   75 | 7945632148 | heart attack        |
+|        130 | Daksh    | Male   |   35 | 7596451265 | high blood pressure |
+|        131 | Abhiri   | Female |   45 | 7894563214 | pancreas            |
+|        134 | Archit   | Male   |   42 | 9784563214 | high blood pressure |
+|        135 | Ishita   | Female |   35 | 7894563214 | hemorrhoids         |
+|        138 | Pihu     | Female |   35 | 7945841236 | infertility         |
+|        142 | Naitik   | Male   |   31 | 7485961425 | Lyme disease        |
+|        143 | Jiya     | Female |   33 | 8759612345 | medical geneticists |
+|        144 | Manvi    | Female |   35 | 7481967453 | spinal tumors       |
+|        149 | Kiaan    | Male   |   45 | 9945612345 | back pain           |
+|        152 | Bhakti   | Female |   36 | 7945621456 | fibromyalgia        |
+|        153 | Samantha | Female |   46 | 8874316542 | hemorrhoids         |
+|        154 | Varsha   | Female |   55 | 9874561234 | cancer              |
+|        155 | Aarohi   | Female |   55 | 9745861265 | calcium             |
+|        158 | Akshay   | Male   |   45 | 8745632145 | heart attack        |
+|        159 | Rushi    | Male   |   55 | 9748569874 | kidney disease      |
+|        161 | Meetali  | Female |   39 | 7894563214 | pancreas            |
+|        163 | Dakshita | Female |   37 | 8759612345 | medical geneticists |
+|        164 | Pranali  | Female |   45 | 7489612345 | spinal tumors       |
+|        165 | Pooja    | Female |   35 | 8998453216 | pregnancy           |
+|        166 | Malika   | Female |   39 | 9784596321 | cancer              |
+|        167 | Janvi    | Female |   48 | 8796542657 | glaucoma            |
+|        169 | Jhone    | Male   |   35 | 9874859614 | back pain           |
+|        170 | Farhat   | Male   |   37 | 8784596145 | depression          |
+|        171 | Hindavi  | Female |   46 | 8874569412 | asthma              |
+|        175 | Gautami  | Female |   65 | 7896548651 | gallbladder         |
+|        176 | Jasprit  | Male   |   37 | 7548659845 | AIDS                |
+|        177 | Suresh   | Male   |   54 | 8794578695 | thyroid problems,   |
+|        178 | Swarup   | Male   |   45 | 8798457869 | heart attack        |
+|        179 | Amit     | Male   |   75 | 9878789878 | kidney disease      |
+|        180 | Mayur    | Male   |   65 | 7896547859 | high blood pressure |
+|        181 | Udati    | Female |   56 | 8896547859 | pancreas            |
+|        182 | Hooda    | Male   |   49 | 9614563245 | food allergies      |
+|        184 | Emran    | Male   |   32 | 9124563254 | high blood pressure |
+|        185 | Ketki    | Female |   65 | 9247856953 | eye                 |
++------------+----------+--------+------+------------+---------------------+
+58 rows in set (0.001 sec)
+
+MariaDB [project]> select * from patient_detail where age<=30;
++------------+----------+--------+------+------------+---------------------+
+| Patient_id | Name     | Gender | Age  | Mobile_no  | Disease             |
++------------+----------+--------+------+------------+---------------------+
+|        101 | Sai      | Male   |   22 | 8956985624 | food allergies      |
+|        110 | Hridhaan | Male   |   30 | 7978456985 | gallbladder         |
+|        111 | Kanav    | Male   |   26 | 9547965235 | hemophilia          |
+|        124 | Vedika   | Female |   25 | 8845964785 | cancer              |
+|        125 | Gudi     | Female |   15 | 8451236547 | calcium             |
+|        126 | Devdut   | Male   |   30 | 7548659845 | accident            |
+|        127 | Yuvan    | Male   |   30 | 7645123654 | AIDS,               |
+|        129 | Arav     | Male   |   25 | 7785694563 | calcium             |
+|        132 | Adwait   | Male   |   29 | 8123456987 | food allergies      |
+|        133 | Ansh     | Male   |   13 | 9475612348 | surgery             |
+|        136 | Arin     | Male   |   22 | 8457964123 | high blood pressure |
+|        137 | Nimisha  | Female |   20 | 7845961234 | thyroid problems    |
+|        139 | Samarth  | Male   |   25 | 7945612345 | pancreas            |
+|        140 | Devansh  | Male   |   22 | 7951462314 | gallbladder         |
+|        141 | Divyansh | Male   |   26 | 7845961234 | hemophilia          |
+|        145 | Mishika  | Female |   28 | 7456319874 | pregnancy           |
+|        146 | Prachi   | Female |   29 | 8745632145 | cancer              |
+|        147 | Yana     | Female |   24 | 8265415865 | glaucoma            |
+|        148 | Surbhi   | Female |   22 | 8874569842 | ears                |
+|        150 | Hridhaan | Male   |   22 | 8745967485 | depression          |
+|        151 | Trisha   | Female |   25 | 8874569412 | asthma              |
+|        156 | Anup     | Male   |   26 | 9874568745 | accident            |
+|        157 | Sandesh  | Male   |   18 | 8974587457 | thyroid problems,   |
+|        160 | Deepak   | Male   |   25 | 9874578965 | high blood pressure |
+|        162 | Rajat    | Male   |   24 | 8974813462 | skin allergies      |
+|        168 | Vanshika | Female |   25 | 4867459345 | ears                |
+|        172 | Shraddha | Female |   26 | 7896412563 | fibromyalgia        |
+|        173 | Manali   | Female |   20 | 7845962313 | hemorrhoids         |
+|        174 | Reheman  | Male   |   15 | 9321548694 | cancer              |
+|        183 | Kimir    | Male   |   29 | 9648569742 | surgery             |
++------------+----------+--------+------+------------+---------------------+
+30 rows in set (0.001 sec)
+
+MariaDB [project]> select * from patient_detail where age between 30 AND 50;
++------------+----------+--------+------+------------+---------------------+
+| Patient_id | Name     | Gender | Age  | Mobile_no  | Disease             |
++------------+----------+--------+------+------------+---------------------+
+|        102 | Rohan    | Male   |   45 | 9945632145 | surgery             |
+|        104 | Bharti   | Female |   45 | 7596451265 | hemorrhoids         |
+|        105 | Daksh    | Male   |   35 | 7596451265 | accident            |
+|        106 | Ishaan   | Male   |   40 | 8641239654 | skin allergies      |
+|        109 | Ivaan    | Male   |   35 | 7586123654 | pancreas            |
+|        110 | Hridhaan | Male   |   30 | 7978456985 | gallbladder         |
+|        112 | Naitik   | Male   |   41 | 7469857412 | Lyme disease        |
+|        113 | Kavya    | Female |   35 | 8654795469 | medical geneticists |
+|        115 | Ketki    | Female |   32 | 8796541264 | pregnancy           |
+|        116 | Jyoti    | Female |   49 | 8879459626 | cancer              |
+|        118 | Pratik   | Female |   45 | 8548654269 | ears                |
+|        120 | Satvik   | Male   |   35 | 7459684512 | depression          |
+|        121 | Takshi   | Female |   45 | 7596459651 | asthma              |
+|        122 | manya    | Female |   46 | 7945621456 | fibromyalgia        |
+|        123 | Chetna   | Female |   36 | 7541269856 | hemorrhoids         |
+|        126 | Devdut   | Male   |   30 | 7548659845 | accident            |
+|        127 | Yuvan    | Male   |   30 | 7645123654 | AIDS,               |
+|        130 | Daksh    | Male   |   35 | 7596451265 | high blood pressure |
+|        131 | Abhiri   | Female |   45 | 7894563214 | pancreas            |
+|        134 | Archit   | Male   |   42 | 9784563214 | high blood pressure |
+|        135 | Ishita   | Female |   35 | 7894563214 | hemorrhoids         |
+|        138 | Pihu     | Female |   35 | 7945841236 | infertility         |
+|        142 | Naitik   | Male   |   31 | 7485961425 | Lyme disease        |
+|        143 | Jiya     | Female |   33 | 8759612345 | medical geneticists |
+|        144 | Manvi    | Female |   35 | 7481967453 | spinal tumors       |
+|        149 | Kiaan    | Male   |   45 | 9945612345 | back pain           |
+|        152 | Bhakti   | Female |   36 | 7945621456 | fibromyalgia        |
+|        153 | Samantha | Female |   46 | 8874316542 | hemorrhoids         |
+|        158 | Akshay   | Male   |   45 | 8745632145 | heart attack        |
+|        161 | Meetali  | Female |   39 | 7894563214 | pancreas            |
+|        163 | Dakshita | Female |   37 | 8759612345 | medical geneticists |
+|        164 | Pranali  | Female |   45 | 7489612345 | spinal tumors       |
+|        165 | Pooja    | Female |   35 | 8998453216 | pregnancy           |
+|        166 | Malika   | Female |   39 | 9784596321 | cancer              |
+|        167 | Janvi    | Female |   48 | 8796542657 | glaucoma            |
+|        169 | Jhone    | Male   |   35 | 9874859614 | back pain           |
+|        170 | Farhat   | Male   |   37 | 8784596145 | depression          |
+|        171 | Hindavi  | Female |   46 | 8874569412 | asthma              |
+|        176 | Jasprit  | Male   |   37 | 7548659845 | AIDS                |
+|        178 | Swarup   | Male   |   45 | 8798457869 | heart attack        |
+|        182 | Hooda    | Male   |   49 | 9614563245 | food allergies      |
+|        184 | Emran    | Male   |   32 | 9124563254 | high blood pressure |
++------------+----------+--------+------+------------+---------------------+
+42 rows in set (0.001 sec)
+
+MariaDB [project]> select * from patient_detail where name like '%a';
++------------+----------+--------+------+------------+---------------------+
+| Patient_id | Name     | Gender | Age  | Mobile_no  | Disease             |
++------------+----------+--------+------+------------+---------------------+
+|        107 | Sampada  | Female |   65 | 7459621456 | thyroid problems    |
+|        108 | Kamyukta | Female |   55 | 7596451265 | infertility         |
+|        113 | Kavya    | Female |   35 | 8654795469 | medical geneticists |
+|        122 | manya    | Female |   46 | 7945621456 | fibromyalgia        |
+|        123 | Chetna   | Female |   36 | 7541269856 | hemorrhoids         |
+|        124 | Vedika   | Female |   25 | 8845964785 | cancer              |
+|        135 | Ishita   | Female |   35 | 7894563214 | hemorrhoids         |
+|        137 | Nimisha  | Female |   20 | 7845961234 | thyroid problems    |
+|        143 | Jiya     | Female |   33 | 8759612345 | medical geneticists |
+|        145 | Mishika  | Female |   28 | 7456319874 | pregnancy           |
+|        147 | Yana     | Female |   24 | 8265415865 | glaucoma            |
+|        151 | Trisha   | Female |   25 | 8874569412 | asthma              |
+|        153 | Samantha | Female |   46 | 8874316542 | hemorrhoids         |
+|        154 | Varsha   | Female |   55 | 9874561234 | cancer              |
+|        163 | Dakshita | Female |   37 | 8759612345 | medical geneticists |
+|        165 | Pooja    | Female |   35 | 8998453216 | pregnancy           |
+|        166 | Malika   | Female |   39 | 9784596321 | cancer              |
+|        168 | Vanshika | Female |   25 | 4867459345 | ears                |
+|        172 | Shraddha | Female |   26 | 7896412563 | fibromyalgia        |
+|        182 | Hooda    | Male   |   49 | 9614563245 | food allergies      |
++------------+----------+--------+------+------------+---------------------+
+20 rows in set (0.001 sec)
+
+MariaDB [project]> select * from patient_detail where name like 's%';
++------------+----------+--------+------+------------+-------------------+
+| Patient_id | Name     | Gender | Age  | Mobile_no  | Disease           |
++------------+----------+--------+------+------------+-------------------+
+|        101 | Sai      | Male   |   22 | 8956985624 | food allergies    |
+|        107 | Sampada  | Female |   65 | 7459621456 | thyroid problems  |
+|        120 | Satvik   | Male   |   35 | 7459684512 | depression        |
+|        128 | Sumit    | Male   |   75 | 7945632148 | heart attack      |
+|        139 | Samarth  | Male   |   25 | 7945612345 | pancreas          |
+|        148 | Surbhi   | Female |   22 | 8874569842 | ears              |
+|        153 | Samantha | Female |   46 | 8874316542 | hemorrhoids       |
+|        157 | Sandesh  | Male   |   18 | 8974587457 | thyroid problems, |
+|        172 | Shraddha | Female |   26 | 7896412563 | fibromyalgia      |
+|        177 | Suresh   | Male   |   54 | 8794578695 | thyroid problems, |
+|        178 | Swarup   | Male   |   45 | 8798457869 | heart attack      |
++------------+----------+--------+------+------------+-------------------+
+11 rows in set (0.001 sec)
+
+MariaDB [project]> select * from patient_detail where name like "v%a";
++------------+----------+--------+------+------------+---------+
+| Patient_id | Name     | Gender | Age  | Mobile_no  | Disease |
++------------+----------+--------+------+------------+---------+
+|        124 | Vedika   | Female |   25 | 8845964785 | cancer  |
+|        154 | Varsha   | Female |   55 | 9874561234 | cancer  |
+|        168 | Vanshika | Female |   25 | 4867459345 | ears    |
++------------+----------+--------+------+------------+---------+
+3 rows in set (0.001 sec)
+
+MariaDB [project]> select distinct department from hospital_detail;
++---------------------------------+
+| department                      |
++---------------------------------+
+|  Immunologists                  |
+|  Anesthesiologists              |
+|  Cardiologists                  |
+|  Colon and Rectal Surgeons      |
+|  Otolaryngologists              |
+|  Dermatologists                 |
+|  Endocrinologists               |
+|  Gastroenterologists            |
+|  Hematologists                  |
+|  Infectious Disease Specialists |
+|  Dentistery & Dental Speciality |
+|  Neurologists                   |
+|  Gynecologists                  |
+|  Oncologists                    |
+|  Ophthalmologists               |
+|  Physiatrists                   |
+|  Psychiatrists                  |
+|  Pulmonologists                 |
+|  Rheumatologists                |
+|  Nephrologists                  |
++---------------------------------+
+20 rows in set (0.001 sec)
+
+MariaDB [project]> select department from hospital_detail group by department;
++---------------------------------+
+| department                      |
++---------------------------------+
+|  Anesthesiologists              |
+|  Cardiologists                  |
+|  Colon and Rectal Surgeons      |
+|  Dentistery & Dental Speciality |
+|  Dermatologists                 |
+|  Endocrinologists               |
+|  Gastroenterologists            |
+|  Gynecologists                  |
+|  Hematologists                  |
+|  Immunologists                  |
+|  Infectious Disease Specialists |
+|  Nephrologists                  |
+|  Neurologists                   |
+|  Oncologists                    |
+|  Ophthalmologists               |
+|  Otolaryngologists              |
+|  Physiatrists                   |
+|  Psychiatrists                  |
+|  Pulmonologists                 |
+|  Rheumatologists                |
++---------------------------------+
+20 rows in set (0.002 sec)
+
+MariaDB [project]> select department,min(doctor_charges) from hospital_detail group by department;
++---------------------------------+---------------------+
+| department                      | min(doctor_charges) |
++---------------------------------+---------------------+
+|  Anesthesiologists              |               12000 |
+|  Cardiologists                  |                2000 |
+|  Colon and Rectal Surgeons      |                5000 |
+|  Dentistery & Dental Speciality |                4500 |
+|  Dermatologists                 |                3000 |
+|  Endocrinologists               |                3000 |
+|  Gastroenterologists            |                3000 |
+|  Gynecologists                  |                5000 |
+|  Hematologists                  |                6000 |
+|  Immunologists                  |                3000 |
+|  Infectious Disease Specialists |                4000 |
+|  Nephrologists                  |                4000 |
+|  Neurologists                   |                6000 |
+|  Oncologists                    |                7500 |
+|  Ophthalmologists               |                2500 |
+|  Otolaryngologists              |                4000 |
+|  Physiatrists                   |                3000 |
+|  Psychiatrists                  |                6000 |
+|  Pulmonologists                 |                4500 |
+|  Rheumatologists                |                2000 |
++---------------------------------+---------------------+
+20 rows in set (0.002 sec)
+
+MariaDB [project]> select department,max(doctor_charges) from hospital_detail group by department;
++---------------------------------+---------------------+
+| department                      | max(doctor_charges) |
++---------------------------------+---------------------+
+|  Anesthesiologists              |               15000 |
+|  Cardiologists                  |                6000 |
+|  Colon and Rectal Surgeons      |                5000 |
+|  Dentistery & Dental Speciality |                4500 |
+|  Dermatologists                 |                3000 |
+|  Endocrinologists               |                3000 |
+|  Gastroenterologists            |                3500 |
+|  Gynecologists                  |                5000 |
+|  Hematologists                  |                6000 |
+|  Immunologists                  |                3000 |
+|  Infectious Disease Specialists |                6500 |
+|  Nephrologists                  |                5000 |
+|  Neurologists                   |                8000 |
+|  Oncologists                    |                8000 |
+|  Ophthalmologists               |                2500 |
+|  Otolaryngologists              |                4000 |
+|  Physiatrists                   |                3000 |
+|  Psychiatrists                  |                6000 |
+|  Pulmonologists                 |                4500 |
+|  Rheumatologists                |                2000 |
++---------------------------------+---------------------+
+20 rows in set (0.002 sec)
+
+MariaDB [project]> select department,count(doctor_charges) from hospital_detail group by department;
++---------------------------------+-----------------------+
+| department                      | count(doctor_charges) |
++---------------------------------+-----------------------+
+|  Anesthesiologists              |                     3 |
+|  Cardiologists                  |                     7 |
+|  Colon and Rectal Surgeons      |                     5 |
+|  Dentistery & Dental Speciality |                     4 |
+|  Dermatologists                 |                     2 |
+|  Endocrinologists               |                     9 |
+|  Gastroenterologists            |                     8 |
+|  Gynecologists                  |                     3 |
+|  Hematologists                  |                     2 |
+|  Immunologists                  |                     3 |
+|  Infectious Disease Specialists |                     4 |
+|  Nephrologists                  |                     5 |
+|  Neurologists                   |                     3 |
+|  Oncologists                    |                     6 |
+|  Ophthalmologists               |                     4 |
+|  Otolaryngologists              |                     5 |
+|  Physiatrists                   |                     3 |
+|  Psychiatrists                  |                     3 |
+|  Pulmonologists                 |                     3 |
+|  Rheumatologists                |                     3 |
++---------------------------------+-----------------------+
+20 rows in set (0.002 sec)
+
+MariaDB [project]> select department,avg(doctor_charges) from hospital_detail group by department;
++---------------------------------+---------------------+
+| department                      | avg(doctor_charges) |
++---------------------------------+---------------------+
+|  Anesthesiologists              |          14000.0000 |
+|  Cardiologists                  |           4857.1429 |
+|  Colon and Rectal Surgeons      |           5000.0000 |
+|  Dentistery & Dental Speciality |           4500.0000 |
+|  Dermatologists                 |           3000.0000 |
+|  Endocrinologists               |           3000.0000 |
+|  Gastroenterologists            |           3062.5000 |
+|  Gynecologists                  |           5000.0000 |
+|  Hematologists                  |           6000.0000 |
+|  Immunologists                  |           3000.0000 |
+|  Infectious Disease Specialists |           5250.0000 |
+|  Nephrologists                  |           4200.0000 |
+|  Neurologists                   |           7333.3333 |
+|  Oncologists                    |           7750.0000 |
+|  Ophthalmologists               |           2500.0000 |
+|  Otolaryngologists              |           4000.0000 |
+|  Physiatrists                   |           3000.0000 |
+|  Psychiatrists                  |           6000.0000 |
+|  Pulmonologists                 |           4500.0000 |
+|  Rheumatologists                |           2000.0000 |
++---------------------------------+---------------------+
+20 rows in set (0.001 sec)
+
+MariaDB [project]> select department,sum(doctor_charges) from hospital_detail group by department;
++---------------------------------+---------------------+
+| department                      | sum(doctor_charges) |
++---------------------------------+---------------------+
+|  Anesthesiologists              |               42000 |
+|  Cardiologists                  |               34000 |
+|  Colon and Rectal Surgeons      |               25000 |
+|  Dentistery & Dental Speciality |               18000 |
+|  Dermatologists                 |                6000 |
+|  Endocrinologists               |               27000 |
+|  Gastroenterologists            |               24500 |
+|  Gynecologists                  |               15000 |
+|  Hematologists                  |               12000 |
+|  Immunologists                  |                9000 |
+|  Infectious Disease Specialists |               21000 |
+|  Nephrologists                  |               21000 |
+|  Neurologists                   |               22000 |
+|  Oncologists                    |               46500 |
+|  Ophthalmologists               |               10000 |
+|  Otolaryngologists              |               20000 |
+|  Physiatrists                   |                9000 |
+|  Psychiatrists                  |               18000 |
+|  Pulmonologists                 |               13500 |
+|  Rheumatologists                |                6000 |
++---------------------------------+---------------------+
+20 rows in set (0.001 sec)
+
+MariaDB [project]> select department,min(doctor_charges) from hospital_detail group by department having min(doctor_charges)>5000;
++--------------------+---------------------+
+| department         | min(doctor_charges) |
++--------------------+---------------------+
+|  Anesthesiologists |               12000 |
+|  Hematologists     |                6000 |
+|  Neurologists      |                6000 |
+|  Oncologists       |                7500 |
+|  Psychiatrists     |                6000 |
++--------------------+---------------------+
+5 rows in set (0.001 sec)
+
+MariaDB [project]> select patient_id,name,age,disease from patient_detail where disease='high blood pressure';
++------------+--------+------+---------------------+
+| patient_id | name   | age  | disease             |
++------------+--------+------+---------------------+
+|        103 | Aahan  |   55 | high blood pressure |
+|        130 | Daksh  |   35 | high blood pressure |
+|        134 | Archit |   42 | high blood pressure |
+|        136 | Arin   |   22 | high blood pressure |
+|        160 | Deepak |   25 | high blood pressure |
+|        180 | Mayur  |   65 | high blood pressure |
+|        184 | Emran  |   32 | high blood pressure |
++------------+--------+------+---------------------+
+7 rows in set (0.001 sec)
+
+MariaDB [project]> create view hospital_record as select patient_id,doctor_name,department from  hospital_detail limit 50;
+Query OK, 0 rows affected (0.021 sec)
+
+MariaDB [project]> select * from hospital_record;
++------------+----------------------+---------------------------------+
+| patient_id | doctor_name          | department                      |
++------------+----------------------+---------------------------------+
+|        101 | Dr. Kalpana divekar  |  Immunologists                  |
+|        102 | Dr. Prasad bhukebag  |  Anesthesiologists              |
+|        103 | Dr. Sandeep varma    |  Cardiologists                  |
+|        104 | Dr. Sagar raiya      |  Colon and Rectal Surgeons      |
+|        105 | Dr. Rajesh Agaewal   |  Otolaryngologists              |
+|        106 | Dr. Harsh shah       |  Dermatologists                 |
+|        107 | Dr. Virendra Patil   |  Endocrinologists               |
+|        108 | Dr. Virendra Patil   |  Endocrinologists               |
+|        109 | Dr. Mandar Arekar    |  Gastroenterologists            |
+|        110 | Dr. Mandar Arekar    |  Gastroenterologists            |
+|        111 | Dr. Hemant Jain      |  Hematologists                  |
+|        112 | Dr. Jigna thakkar    |  Infectious Disease Specialists |
+|        113 | Dr. Mrunal chaudhari |  Dentistery & Dental Speciality |
+|        114 | Dr. Nilesh shetty    |  Neurologists                   |
+|        115 | Dr. Ashok naydu      |  Gynecologists                  |
+|        116 | Dr. Jay anam         |  Oncologists                    |
+|        117 | Dr. Jinesh patani    |  Ophthalmologists               |
+|        118 | Dr. Rajesh Agaewal   |  Otolaryngologists              |
+|        119 | Dr. Pragna gada      |  Physiatrists                   |
+|        120 | Dr. Amee shah        |  Psychiatrists                  |
+|        121 | Dr. Gulabi sheth     |  Pulmonologists                 |
+|        122 | Dr. Anjali swami     |  Rheumatologists                |
+|        123 | Dr. Sagar raiya      |  Colon and Rectal Surgeons      |
+|        124 | Dr. Jay anam         |  Oncologists                    |
+|        125 | Dr. Virendra Patil   |  Endocrinologists               |
+|        126 | Dr. Rajesh Agaewal   |  Otolaryngologists              |
+|        127 | Dr. Jigna thakkar    |  Infectious Disease Specialists |
+|        128 | Dr. Sandeep varma    |  Cardiologists                  |
+|        129 | Dr. Virendra Patil   |  Endocrinologists               |
+|        130 | Dr. Nikhil kedia     |  Nephrologists                  |
+|        131 | Dr. Mandar Arekar    |  Gastroenterologists            |
+|        132 | Dr. Kalpana divekar  |  Immunologists                  |
+|        133 | Dr. Prasad bhuke     |  Anesthesiologists              |
+|        134 | Dr. Nikhil kedia     |  Nephrologists                  |
+|        135 | Dr. Sagar raiya      |  Colon and Rectal Surgeons      |
+|        136 | Dr. Nikhil kedia     |  Nephrologists                  |
+|        137 | Dr. Virendra Patil   |  Endocrinologists               |
+|        138 | Dr. Virendra Patil   |  Endocrinologists               |
+|        139 | Dr. Mandar Arekar    |  Gastroenterologists            |
+|        140 | Dr. Mandar Arekar    |  Gastroenterologists            |
+|        141 | Dr. Hemant Jain      |  Hematologists                  |
+|        142 | Dr. Jigna thakkar    |  Infectious Disease Specialists |
+|        143 | Dr. Mrunal chaudhari |  Dentistery & Dental Speciality |
+|        144 | Dr. Nilesh shetty    |  Neurologists                   |
+|        145 | Dr. Ashok naydu      |  Gynecologists                  |
+|        146 | Dr. Jay anam         |  Oncologists                    |
+|        147 | Dr. Jinesh patani    |  Ophthalmologists               |
+|        148 | Dr. Rajesh Agaewal   |  Otolaryngologists              |
+|        149 | Dr. Pragna gada      |  Physiatrists                   |
+|        150 | Dr. Amee shah        |  Psychiatrists                  |
++------------+----------------------+---------------------------------+
+50 rows in set (0.001 sec)
+
+MariaDB [project]> select hospital_detail.doctor_name,hospital_detail.department,patient_detail.name, patient_detail.age,patient_detail.disease
+    -> from hospital_detail
+    -> inner join patient_detail
+    -> on hospital_detail.patient_id=patient_detail.patient_id;
++----------------------+---------------------------------+----------+------+---------------------+
+| doctor_name          | department                      | name     | age  | disease             |
++----------------------+---------------------------------+----------+------+---------------------+
+| Dr. Kalpana divekar  |  Immunologists                  | Sai      |   22 | food allergies      |
+| Dr. Prasad bhukebag  |  Anesthesiologists              | Rohan    |   45 | surgery             |
+| Dr. Sandeep varma    |  Cardiologists                  | Aahan    |   55 | high blood pressure |
+| Dr. Sagar raiya      |  Colon and Rectal Surgeons      | Bharti   |   45 | hemorrhoids         |
+| Dr. Rajesh Agaewal   |  Otolaryngologists              | Daksh    |   35 | accident            |
+| Dr. Harsh shah       |  Dermatologists                 | Ishaan   |   40 | skin allergies      |
+| Dr. Virendra Patil   |  Endocrinologists               | Sampada  |   65 | thyroid problems    |
+| Dr. Virendra Patil   |  Endocrinologists               | Kamyukta |   55 | infertility         |
+| Dr. Mandar Arekar    |  Gastroenterologists            | Ivaan    |   35 | pancreas            |
+| Dr. Mandar Arekar    |  Gastroenterologists            | Hridhaan |   30 | gallbladder         |
+| Dr. Hemant Jain      |  Hematologists                  | Kanav    |   26 | hemophilia          |
+| Dr. Jigna thakkar    |  Infectious Disease Specialists | Naitik   |   41 | Lyme disease        |
+| Dr. Mrunal chaudhari |  Dentistery & Dental Speciality | Kavya    |   35 | medical geneticists |
+| Dr. Nilesh shetty    |  Neurologists                   | Pritani  |   65 | spinal tumors       |
+| Dr. Ashok naydu      |  Gynecologists                  | Ketki    |   32 | pregnancy           |
+| Dr. Jay anam         |  Oncologists                    | Jyoti    |   49 | cancer              |
+| Dr. Jinesh patani    |  Ophthalmologists               | Lily     |   64 | glaucoma            |
+| Dr. Rajesh Agaewal   |  Otolaryngologists              | Pratik   |   45 | ears                |
+| Dr. Pragna gada      |  Physiatrists                   | Rayaan   |   65 | back pain           |
+| Dr. Amee shah        |  Psychiatrists                  | Satvik   |   35 | depression          |
+| Dr. Gulabi sheth     |  Pulmonologists                 | Takshi   |   45 | asthma              |
+| Dr. Anjali swami     |  Rheumatologists                | manya    |   46 | fibromyalgia        |
+| Dr. Sagar raiya      |  Colon and Rectal Surgeons      | Chetna   |   36 | hemorrhoids         |
+| Dr. Jay anam         |  Oncologists                    | Vedika   |   25 | cancer              |
+| Dr. Virendra Patil   |  Endocrinologists               | Gudi     |   15 | calcium             |
+| Dr. Rajesh Agaewal   |  Otolaryngologists              | Devdut   |   30 | accident            |
+| Dr. Jigna thakkar    |  Infectious Disease Specialists | Yuvan    |   30 | AIDS,               |
+| Dr. Sandeep varma    |  Cardiologists                  | Sumit    |   75 | heart attack        |
+| Dr. Virendra Patil   |  Endocrinologists               | Arav     |   25 | calcium             |
+| Dr. Nikhil kedia     |  Nephrologists                  | Daksh    |   35 | high blood pressure |
+| Dr. Mandar Arekar    |  Gastroenterologists            | Abhiri   |   45 | pancreas            |
+| Dr. Kalpana divekar  |  Immunologists                  | Adwait   |   29 | food allergies      |
+| Dr. Prasad bhuke     |  Anesthesiologists              | Ansh     |   13 | surgery             |
+| Dr. Nikhil kedia     |  Nephrologists                  | Archit   |   42 | high blood pressure |
+| Dr. Sagar raiya      |  Colon and Rectal Surgeons      | Ishita   |   35 | hemorrhoids         |
+| Dr. Nikhil kedia     |  Nephrologists                  | Arin     |   22 | high blood pressure |
+| Dr. Virendra Patil   |  Endocrinologists               | Nimisha  |   20 | thyroid problems    |
+| Dr. Virendra Patil   |  Endocrinologists               | Pihu     |   35 | infertility         |
+| Dr. Mandar Arekar    |  Gastroenterologists            | Samarth  |   25 | pancreas            |
+| Dr. Mandar Arekar    |  Gastroenterologists            | Devansh  |   22 | gallbladder         |
+| Dr. Hemant Jain      |  Hematologists                  | Divyansh |   26 | hemophilia          |
+| Dr. Jigna thakkar    |  Infectious Disease Specialists | Naitik   |   31 | Lyme disease        |
+| Dr. Mrunal chaudhari |  Dentistery & Dental Speciality | Jiya     |   33 | medical geneticists |
+| Dr. Nilesh shetty    |  Neurologists                   | Manvi    |   35 | spinal tumors       |
+| Dr. Ashok naydu      |  Gynecologists                  | Mishika  |   28 | pregnancy           |
+| Dr. Jay anam         |  Oncologists                    | Prachi   |   29 | cancer              |
+| Dr. Jinesh patani    |  Ophthalmologists               | Yana     |   24 | glaucoma            |
+| Dr. Rajesh Agaewal   |  Otolaryngologists              | Surbhi   |   22 | ears                |
+| Dr. Pragna gada      |  Physiatrists                   | Kiaan    |   45 | back pain           |
+| Dr. Amee shah        |  Psychiatrists                  | Hridhaan |   22 | depression          |
+| Dr. Gulabi sheth     |  Pulmonologists                 | Trisha   |   25 | asthma              |
+| Dr. Anjali swami     |  Rheumatologists                | Bhakti   |   36 | fibromyalgia        |
+| Dr. Sagar raiya      |  Colon and Rectal Surgeons      | Samantha |   46 | hemorrhoids         |
+| Dr. Jay anam         |  Oncologists                    | Varsha   |   55 | cancer              |
+| Dr. Virendra Patil   |  Endocrinologists               | Aarohi   |   55 | calcium             |
+| Dr. Mrunal chaudhari |  Dentistery & Dental Speciality | Anup     |   26 | accident            |
+| Dr. Virendra Patil   |  Endocrinologists               | Sandesh  |   18 | thyroid problems,   |
+| Dr. Sandeep varma    |  Cardiologists                  | Akshay   |   45 | heart attack        |
+| Dr. Sandeep varma    |  Cardiologists                  | Rushi    |   55 | kidney disease      |
+| Dr. Nikhil kedia     |  Nephrologists                  | Deepak   |   25 | high blood pressure |
+| Dr. Mandar Arekar    |  Gastroenterologists            | Meetali  |   39 | pancreas            |
+| Dr. Harsh shah       |  Dermatologists                 | Rajat    |   24 | skin allergies      |
+| Dr. Mrunal chaudhari |  Dentistery & Dental Speciality | Dakshita |   37 | medical geneticists |
+| Dr. Nilesh shetty    |  Neurologists                   | Pranali  |   45 | spinal tumors       |
+| Dr. Ashok naydu      |  Gynecologists                  | Pooja    |   35 | pregnancy           |
+| Dr. Jay anam         |  Oncologists                    | Malika   |   39 | cancer              |
+| Dr. Jinesh patani    |  Ophthalmologists               | Janvi    |   48 | glaucoma            |
+| Dr. Rajesh Agaewal   |  Otolaryngologists              | Vanshika |   25 | ears                |
+| Dr. Pragna gada      |  Physiatrists                   | Jhone    |   35 | back pain           |
+| Dr. Amee shah        |  Psychiatrists                  | Farhat   |   37 | depression          |
+| Dr. Gulabi sheth     |  Pulmonologists                 | Hindavi  |   46 | asthma              |
+| Dr. Anjali swami     |  Rheumatologists                | Shraddha |   26 | fibromyalgia        |
+| Dr. Sagar raiya      |  Colon and Rectal Surgeons      | Manali   |   20 | hemorrhoids         |
+| Dr. Jay anam         |  Oncologists                    | Reheman  |   15 | cancer              |
+| Dr. Mandar Arekar    |  Gastroenterologists            | Gautami  |   65 | gallbladder         |
+| Dr. Jigna thakkar    |  Infectious Disease Specialists | Jasprit  |   37 | AIDS                |
+| Dr. Virendra Patil   |  Endocrinologists               | Suresh   |   54 | thyroid problems,   |
+| Dr. Sandeep varma    |  Cardiologists                  | Swarup   |   45 | heart attack        |
+| Dr. Sandeep varma    |  Cardiologists                  | Amit     |   75 | kidney disease      |
+| Dr. Nikhil kedia     |  Nephrologists                  | Mayur    |   65 | high blood pressure |
+| Dr. Mandar Arekar    |  Gastroenterologists            | Udati    |   56 | pancreas            |
+| Dr. Kalpana divekar  |  Immunologists                  | Hooda    |   49 | food allergies      |
+| Dr. Prasad bhuke     |  Anesthesiologists              | Kimir    |   29 | surgery             |
+| Dr. Sandeep varma    |  Cardiologists                  | Emran    |   32 | high blood pressure |
+| Dr. Jinesh patani    |  Ophthalmologists               | Ketki    |   65 | eye                 |
++----------------------+---------------------------------+----------+------+---------------------+
